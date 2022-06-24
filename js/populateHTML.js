@@ -5,7 +5,7 @@ import { default as data } from "../db/db.js";
 */
 function fetchBlogsFromMedium() {
 	fetch(
-		"https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@vinaysomawat"
+		"https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@namratha9823"
 	)
 		.then((response) => response.json())
 		.then((data) => {
@@ -280,16 +280,12 @@ function populateLinks(items, id) {
 }
 
 populateSkills(data.skills, "skills");
-
 fetchBlogsFromMedium();
-
-populateProjects(data.projects.web, "web-projects");
-populateProjects(data.projects.software, "software-projects");
-populateProjects(data.projects.android, "android-projects");
-populateProjects(data.projects.freelance, "freelance-projects");
 
 populateExp_Edu(data.experience, "experience");
 populateExp_Edu(data.community, "community");
+
+populateProjects(data.projects.web, "web-projects");
 populateExp_Edu(data.education, "education");
 
 populateLinks(data.footer, "footer");
