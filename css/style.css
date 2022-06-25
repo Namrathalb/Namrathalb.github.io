@@ -949,6 +949,15 @@ body.offcanvas .colorlib-nav-toggle {
 	font-size: 16px;
 }
 
+.timeline-span {
+	-webkit-opacity: 0.4;
+	-moz-opacity: 0.4;
+	opacity: 0.4;
+	-ms-filter: alpha(opacity=40);
+	filter: alpha(opacity=40);
+	font-size: 16px;
+}
+
 .services {
 	margin-bottom: 30px;
 	padding: 1.5em;
