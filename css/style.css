@@ -519,7 +519,7 @@ body.offcanvas #colorlib-aside {
 	-o-transform: translateX(0);
 	transform: translateX(0);
 	width: 372px;
-	background-color: #ffffff;
+	background-color: #000;
 	z-index: 999;
 	position: fixed;
 }
@@ -1820,11 +1820,11 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .colorlib-nav-toggle.active i::before,
 .colorlib-nav-toggle.active i::after {
-	background: #000;
+	background: White;
 }
 .colorlib-nav-toggle.dark.active i::before,
 .colorlib-nav-toggle.dark.active i::after {
-	background: #000;
+	background: white;
 }
 .colorlib-nav-toggle:hover,
 .colorlib-nav-toggle:focus,
@@ -1840,7 +1840,7 @@ body.offcanvas .colorlib-nav-toggle {
 	*display: inline;
 	width: 30px;
 	height: 2px;
-	background-color: #000;
+	background-color: green;
 	font: bold 14px/0.4 Helvetica;
 	text-transform: uppercase;
 	text-indent: -55px;
@@ -1853,7 +1853,7 @@ body.offcanvas .colorlib-nav-toggle {
 	content: "";
 	width: 30px;
 	height: 2px;
-	background-color: #000;
+	background-color: green;
 	position: absolute;
 	left: 0;
 	-webkit-transition: 0.2s;
