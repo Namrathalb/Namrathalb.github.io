@@ -168,25 +168,17 @@ function populateExp_Edu(items, id) {
 		spanTimelineSublabel.className = "timeline-sublabel";
 		spanTimelineSublabel.innerHTML = items[i].subtitle;
 
-		let spanh2 = document.createElement("span");
-		spanh2.innerHTML = items[i].duration;
+		let spantimeline = document.createElement("span");
+		spantimeline.className = "timeline-span";
+		spantimeline.innerHTML = items[i].duration;
 
 		let h2TimelineLabel = document.createElement("h2");
 		h2TimelineLabel.innerHTML = items[i].title;
-		h2TimelineLabel.append(spanh2);
 
 		let divTimelineLabel = document.createElement("div");
-		divTimelineLabel.className = "timeline-label";
 		divTimelineLabel.append(h2TimelineLabel);
-		divTimelineLabel.append(spanTimelineSublabel);
 
-		for (let j = 0; j < items[i].details.length; j++) {
-			let pTimelineText = document.createElement("p");
-			pTimelineText.className = "timeline-text";
-			pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
-			divTimelineLabel.append(pTimelineText);
-		}
-
+		
 		let divTags = document.createElement("div");
 		for (let j = 0; j < items[i].tags.length; j++) {
 			let spanTags = document.createElement("span");
@@ -194,8 +186,8 @@ function populateExp_Edu(items, id) {
 			spanTags.innerHTML = items[i].tags[j];
 			divTags.append(spanTags);
 		}
-		divTimelineLabel.append(divTags);
 
+		
 		let iFa = document.createElement("i");
 		iFa.className = "fa fa-" + items[i].icon;
 
@@ -206,11 +198,37 @@ function populateExp_Edu(items, id) {
 		let divTimelineEntryInner = document.createElement("div");
 		divTimelineEntryInner.className = "timeline-entry-inner";
 		divTimelineEntryInner.append(divTimelineIcon);
-		divTimelineEntryInner.append(divTimelineLabel);
 
+		
 		let article = document.createElement("article");
 		article.className = "timeline-entry animate-box";
-		article.append(divTimelineEntryInner);
+		
+		if(i>0 && items[i].title == items[i-1].title) {
+			spanTimelineSublabel.style = 'margin-top:10px;';
+			document.getElementsByClassName('timeline-label')[i-1].append(spanTimelineSublabel);
+			document.getElementsByClassName('timeline-label')[i-1].append(spantimeline);
+			for (let j = 0; j < items[i].details.length; j++) {
+				let pTimelineText = document.createElement("p");
+				pTimelineText.className = "timeline-text";
+				pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
+				document.getElementsByClassName('timeline-label')[i-1].append(pTimelineText);
+			}
+			document.getElementsByClassName('timeline-label')[i-1].append(divTags);
+		} else {
+			divTimelineLabel.className = "timeline-label";
+			divTimelineLabel.append(spanTimelineSublabel);
+			divTimelineLabel.append(spantimeline);
+			for (let j = 0; j < items[i].details.length; j++) {
+				let pTimelineText = document.createElement("p");
+				pTimelineText.className = "timeline-text";
+				pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
+				divTimelineLabel.append(pTimelineText);
+			}
+			divTimelineLabel.append(divTags);
+			divTimelineEntryInner.append(divTimelineLabel);
+		
+			article.append(divTimelineEntryInner);
+		}
 
 		mainContainer.append(article);
 	}
@@ -228,6 +246,7 @@ function populateExp_Edu(items, id) {
 
 	mainContainer.append(article);
 }
+
 
 function populateLinks(items, id) {
 	let footer = document.getElementById(id);
