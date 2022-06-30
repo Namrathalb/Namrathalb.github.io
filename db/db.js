@@ -28,6 +28,7 @@ export default {
 		{
 			title: "QuEST Global",
 			duration: "September 2020 - Present",
+			
 			subtitle: "Software Engineer - Build Manager",
 			details: [
 				"Responsible for Build Releases as part of Build Management Team of AT DIS (DC) Mainline Signalling -2.",
@@ -35,8 +36,6 @@ export default {
 			],
 			tags: [ "Integration Testing", "Test scripts Automation", "Agile Methodolgies", "Scrum Master",],
 			
-			title: "QuEST Global",
-			duration: "September 2020 - December 2020",
 			subtitle: "Trainee Software Engineer",
 			details: [
 				"Acted as QA Tester for the ALSTOM DIS operations Tools team for ATE-OTS product. Designing Test cases, Black box Testing, Report documentation",
