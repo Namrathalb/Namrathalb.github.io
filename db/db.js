@@ -37,8 +37,7 @@ export default {
 			tags: [ "Integration Testing", "Test scripts Automation", "Agile Methodolgies", "Scrum Master",],
 			icon: "train",
 
-		},
-		{
+			title: "QuEST Global",
 			duration: "September 2020 - december 2020",
 			subtitle: "Trainee Software Engineer",
 			details: [
