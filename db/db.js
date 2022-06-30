@@ -34,6 +34,7 @@ export default {
 				"Working towards fast delivery of software build releases as developer changes done, by performing integration testing and software build releaes for the Onboard teams",
 			],
 			tags: [ "Integration Testing", "Test scripts Automation", "Agile Methodolgies", "Scrum Master",],
+			icon: "train",
 		},		
 		{
 			title: "QuEST Global",
