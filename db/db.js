@@ -35,7 +35,11 @@ export default {
 				"Working towards fast delivery of software build releases as developer changes done, by performing integration testing and software build releaes for the Onboard teams",
 			],
 			tags: [ "Integration Testing", "Test scripts Automation", "Agile Methodolgies", "Scrum Master",],
+			icon: "train",
 
+		},
+		{
+			duration: "September 2020 - december 2020",
 			subtitle: "Trainee Software Engineer",
 			details: [
 				"Acted as QA Tester for the ALSTOM DIS operations Tools team for ATE-OTS product. Designing Test cases, Black box Testing, Report documentation",
