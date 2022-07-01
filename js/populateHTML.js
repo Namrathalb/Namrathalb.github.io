@@ -178,6 +178,12 @@ function populateExp_Edu(items, id) {
 		let divTimelineLabel = document.createElement("div");
 		divTimelineLabel.append(h2TimelineLabel);
 
+		for (let j = 0; j < items[i].details.length; j++) {	
+			let pTimelineText = document.createElement("p");	
+			pTimelineText.className = "timeline-text";	
+			pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];	
+			divTimelineLabel.append(pTimelineText);	
+		}
 		
 		let divTags = document.createElement("div");
 		for (let j = 0; j < items[i].tags.length; j++) {
@@ -187,6 +193,7 @@ function populateExp_Edu(items, id) {
 			divTags.append(spanTags);
 		}
 
+		divTimelineLabel.append(divTags);
 		
 		let iFa = document.createElement("i");
 		iFa.className = "fa fa-" + items[i].icon;
