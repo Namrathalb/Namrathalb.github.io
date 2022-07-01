@@ -193,8 +193,6 @@ function populateExp_Edu(items, id) {
 			divTags.append(spanTags);
 		}
 
-		divTimelineLabel.append(divTags);
-		
 		let iFa = document.createElement("i");
 		iFa.className = "fa fa-" + items[i].icon;
 
@@ -206,7 +204,6 @@ function populateExp_Edu(items, id) {
 		divTimelineEntryInner.className = "timeline-entry-inner";
 		divTimelineEntryInner.append(divTimelineIcon);
 
-		
 		let article = document.createElement("article");
 		article.className = "timeline-entry animate-box";
 		
