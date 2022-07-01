@@ -178,22 +178,22 @@ function populateExp_Edu(items, id) {
 		let divTimelineLabel = document.createElement("div");
 		divTimelineLabel.append(h2TimelineLabel);
 
-		for (let j = 0; j < items[i].details.length; j++) {
-			let pTimelineText = document.createElement("p");
-			pTimelineText.className = "timeline-text";
-			pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
-			divTimelineLabel.append(pTimelineText);
+		for (let j = 0; j < items[i].details.length; j++) {	
+			let pTimelineText = document.createElement("p");	
+			pTimelineText.className = "timeline-text";	
+			pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];	
+			divTimelineLabel.append(pTimelineText);	
 		}
-
-	let divTags = document.createElement("div");
+		
+		let divTags = document.createElement("div");
 		for (let j = 0; j < items[i].tags.length; j++) {
 			let spanTags = document.createElement("span");
 			spanTags.className = "badge badge-secondary";
 			spanTags.innerHTML = items[i].tags[j];
 			divTags.append(spanTags);
 		}
-		divTimelineLabel.append(divTags);
 
+		divTimelineLabel.append(divTags);
 		
 		let iFa = document.createElement("i");
 		iFa.className = "fa fa-" + items[i].icon;
@@ -205,13 +205,37 @@ function populateExp_Edu(items, id) {
 		let divTimelineEntryInner = document.createElement("div");
 		divTimelineEntryInner.className = "timeline-entry-inner";
 		divTimelineEntryInner.append(divTimelineIcon);
-		divTimelineEntryInner.append(divTimelineLabel);
 
 		
 		let article = document.createElement("article");
 		article.className = "timeline-entry animate-box";
-		article.append(divTimelineEntryInner);
-
+		
+		if(i>0 && items[i].title == items[i-1].title) {
+			spanTimelineSublabel.style = 'margin-top:10px;';
+			document.getElementsByClassName('timeline-label')[i-1].append(spanTimelineSublabel);
+			document.getElementsByClassName('timeline-label')[i-1].append(spantimeline);
+			for (let j = 0; j < items[i].details.length; j++) {
+				let pTimelineText = document.createElement("p");
+				pTimelineText.className = "timeline-text";
+				pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
+				document.getElementsByClassName('timeline-label')[i-1].append(pTimelineText);
+			}
+			document.getElementsByClassName('timeline-label')[i-1].append(divTags);
+		} else {
+			divTimelineLabel.className = "timeline-label";
+			divTimelineLabel.append(spanTimelineSublabel);
+			divTimelineLabel.append(spantimeline);
+			for (let j = 0; j < items[i].details.length; j++) {
+				let pTimelineText = document.createElement("p");
+				pTimelineText.className = "timeline-text";
+				pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
+				divTimelineLabel.append(pTimelineText);
+			}
+			divTimelineLabel.append(divTags);
+			divTimelineEntryInner.append(divTimelineLabel);
+		
+			article.append(divTimelineEntryInner);
+		}
 
 		mainContainer.append(article);
 	}
@@ -286,7 +310,6 @@ fetchBlogsFromMedium();
 
 populateExp_Edu(data.experience, "experience");
 populateExp_Edu(data.community, "community");
-
 populateProjects(data.projects.web, "web-projects");
 populateExp_Edu(data.education, "education");
 
