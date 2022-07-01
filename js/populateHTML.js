@@ -192,6 +192,7 @@ function populateExp_Edu(items, id) {
 			pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];	
 			divTimelineLabel.append(pTimelineText);	
 		}
+		divTimelineLabel.append(divTags);
 		
 		let iFa = document.createElement("i");
 		iFa.className = "fa fa-" + items[i].icon;
