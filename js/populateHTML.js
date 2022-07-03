@@ -194,6 +194,7 @@ function populateExp_Edu(items, id) {
 			divTimelineLabel.append(pTimelineText);	
 		}	
 
+		divTimelineLabel.append(divTags);
 		
 		let iFa = document.createElement("i");
 		iFa.className = "fa fa-" + items[i].icon;
