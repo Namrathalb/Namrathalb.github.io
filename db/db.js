@@ -47,7 +47,7 @@ export default {
 			icon: "train",
 		},
 		{
-			title: "QuEST Global",
+			title: " QuEST Global  ",
 			duration: "Jan 2020 - August 2020",
 			subtitle: "Project Intern",
 			details: [
