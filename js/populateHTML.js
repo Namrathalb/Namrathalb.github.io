@@ -297,12 +297,9 @@ function populateLinks(items, id) {
 	}
 }
 
-populateSkills(data.skills, "skills");
-fetchBlogsFromMedium();
 
+fetchBlogsFromMedium();
 populateExp_Edu(data.experience, "experience");
 populateExp_Edu(data.community, "community");
-populateProjects(data.projects.web, "web-projects");
 populateExp_Edu(data.education, "education");
-
 populateLinks(data.footer, "footer");
