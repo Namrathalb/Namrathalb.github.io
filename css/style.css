@@ -152,7 +152,7 @@ figure figcaption {
 		-o-transform: translateX(-300px);
 		transform: translateX(-300px);
 		padding-top: 4em;
-		background-color: #f9bf3f;
+		background-color: green;
 		height: auto;
 	}
 	.resume-content img {
@@ -168,8 +168,8 @@ figure figcaption {
 	height: auto;
 }
 #colorlib-aside .author-img {
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 	margin: 0 auto;
 	margin-bottom: 1px;
 	-webkit-border-radius: 20%;
@@ -182,7 +182,7 @@ figure figcaption {
 #colorlib-aside .author-img img{
 	height: 100%; 
     object-fit: contain;
-	padding: 30px;
+	padding: 20px;
 }
 #colorlib-aside h1 {
 	font-family: "Raleway", sans-serif;
@@ -221,11 +221,11 @@ figure figcaption {
 }
 @media screen and (max-width: 768px) {
 	#colorlib-aside #colorlib-main-menu ul {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 	}
 }
 #colorlib-aside #colorlib-main-menu ul li {
-	margin: 0 0 10px 0;
+	margin: 0 0 5px 0;
 	padding: 0;
 	list-style: none;
 	font-size: 12px;
@@ -237,7 +237,7 @@ figure figcaption {
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 	position: relative;
-	padding: 10px 0;
+	padding: 5px 0;
 	font-family: "Montserrat", sans-serif;;
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
@@ -292,7 +292,7 @@ figure figcaption {
 	text-align: center;
 	font-weight: 400;
 	color: rgba(0, 0, 0, 0.5);
-	padding: 0 20px;
+	padding: 0 10px;
 	width: 100%;
 }
 @media screen and (max-width: 768px) {
@@ -2149,7 +2149,7 @@ span {
 
 :root {
 	--footer-bg: Green;
-	--color: black;
+	--color: #00008B;
 	--color-smooth: white;
 	--input-border: #3a456a;
 	--btn-bg-color: #f1f2fc;
@@ -2214,7 +2214,7 @@ span {
 .copyright-text p {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: white;
+	color: black;
 }
 
 .readmore {
