@@ -602,43 +602,28 @@ body.offcanvas .colorlib-nav-toggle {
 /* Skills section ends */
 
 /* Projects section */
-.projects {
-	background-color: var(--bg-color);
-	padding: 32px 0;
-	margin-top: 2rem;	
-  }  
-  .project-pic {
-	padding: 2rem;
-	width: 190px;
-	height: 190px;
-  }  
-  .projects-container {
-	height : 300px;
-	width : 800px;
-	display: flex;
-	align-items: center;
-	justify-content: center;	
-  }  
-  .projects-title {
-	text-align: center;
-	margin-bottom: 2rem;
-	padding: 2rem;
-	margin-top: 2rem;
-  }  
-  .project-container {
-	text-align: center;
-	width: 30rem;
-	padding: 1rem;	
-  }  
-  .project-container p {
-	padding: 0.4rem;
-  }  
-  .project-title {
-	margin-bottom: var(--bottom-margin);
-  }  
-  .project-details {
-	margin-bottom: var(--bottom-margin);
-  }
+body { background-color: #000; font-family: "Quicksand", Arial, sans-serif; }
+
+/*body * { box-sizing: border-box; }*/
+h2 { font-size: 18px; font-weight: bold; }
+small { font-size: 15px; }
+.container { width: 100%; max-width: 1200px; margin: 10px auto; }
+.project-pic { width: 150px; height: 150px; display: block; }
+
+/*Card Styling*/
+.card { border: 1px solid green; background-color: black; }
+.card__wrap--inner { padding: 0.5rem; }
+.card__item { padding: 0px 5px 1px 8px; text-align: center; }
+.card__footer { padding: 5px; text-align: center; overflow: hidden; border-top: 1px solid GREEN; }
+
+/*Card Flex Code*/
+.card { display: flex; flex-direction: column; width: 100%; }
+.card__wrap--outer { display: flex; flex-direction: row; flex-wrap: wrap; width: 100%; }
+.card__wrap--inner { display: flex; flex-direction: row; width: 100%; }
+
+@media (min-width: 480px) { .card__wrap--inner { width: 50% } }
+@media (min-width: 1024px) { .card__wrap--inner { width: 33.33%} }
+.flexible { flex-grow: 5; }
 /* Project section ends*/  
 
 
@@ -2305,3 +2290,6 @@ span {
 	background-color: #00acee;
 	color: #ffffff;
   }
+
+
+ 
