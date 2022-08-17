@@ -2290,5 +2290,11 @@ span {
 	color: #ffffff;
   }
 
-
+ .wrapper .telegram:hover,
+  .wrapper .telegram:hover .tooltip,
+  .wrapper .telegram:hover .tooltip::before {
+	background-color: #333333;
+	color: #ffffff;
+  }
+ 
  
