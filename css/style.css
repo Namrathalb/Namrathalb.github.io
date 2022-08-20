@@ -42,6 +42,26 @@ body {
 	}
 }
 
+
+/* Button Download*/
+.down {
+	width: 150px;
+	height: 40px;
+	margin: auto;
+	position: fixed;
+	font-size: 14px;	
+	border: 2px solid green;
+	color: green;
+	line-height: 30px;
+	background: none;
+	white-space: nowrap;
+	overflow: hidden;
+	box-shadow: 0 0 5px black;
+	border-radius: 60px;
+	outline: none;
+  }
+  /* Button Download*/
+
 a {
 	color: green;
 	-webkit-transition: 0.5s;
