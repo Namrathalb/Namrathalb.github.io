@@ -42,7 +42,6 @@ body {
 	}
 }
 
-
 /* Button Download*/
 .down {
 	width: 150px;
@@ -580,7 +579,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-services,
 .colorlib-footer,
 .colorlib-contact {
-	padding-top: 3em;
+	padding-top: 0.5em;
 	padding-bottom: 0em;
 	clear: both;
 	width: 100%;
@@ -607,17 +606,17 @@ body.offcanvas .colorlib-nav-toggle {
 	max-width: 68.75rem;
 	margin: auto;
 	text-align: center;
-	margin-top: 2.5rem;
+	margin-top: 0.1rem;
   }  
   .skill-header {
 	margin-bottom: 1rem;
   }  
   .skills-wrapper img {
-	padding: 1.25rem;
+	padding: 0.5rem;
   }  
   .icon {
-	width: 11.875rem;
-	height: 11.25rem;
+	width: 8rem;
+	height: 8rem;
   }
 /* Skills section ends */
 
@@ -628,7 +627,6 @@ h2 { font-size: 18px; font-weight: bold; }
 small { font-size: 15px; }
 .container { width: 100%; max-width: 1200px; margin: 10px auto; }
 .project-pic { width: 150px; height: 150px; display: block; }
-
 /*Card Styling*/
 .card { border: 1px solid green; background-color: black; }
 .card__wrap--inner { padding: 0.5rem; }
@@ -2310,11 +2308,10 @@ span {
 	color: #ffffff;
   }
 
- .wrapper .telegram:hover,
+  .wrapper .telegram:hover,
   .wrapper .telegram:hover .tooltip,
   .wrapper .telegram:hover .tooltip::before {
 	background-color: #333333;
 	color: #ffffff;
   }
- 
  
