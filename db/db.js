@@ -3,14 +3,14 @@ export default {
 		about: {
 			text: [
 				"Hi &#128075;",
-				"I'm Namratha L Bemane. I'm currently working as a Software Engineer at QuEST Global. Founder of Kodeverse Community. I did my Undergrad in CSE from NHCE Bangalore.",
-				"I've been a developer, Tester and currently as Build Manager in my present role. I am Passionate about building Products that solves real world challenges using technologies. I'm a Geek and Passionate about Building Products & Communities both in Tech and Non-Tech. I have experience of delivering solutions Software Builds and Leading a Team.",
-				"I love to Teach, listen to music, Network, Talk about Cypto, Web 3.0 and Pop culture.",
+				"I'm Namratha L Bemane, currently working as a Software Engineer at QuEST Global. Founder of Kodeverse Community. I did my undergrad in CSE from NHCE Bangalore.",
+				"I've been a developer, tester and currently as Build Manager in my present role. I'm passionate about building products that solves real world challenges using technologies. I'm interested in building products & communities both in Tech and Non-Tech space. I have hands on experience of delivering software build solutaions and team management.",
+				"I love to Teach, listing  music, networking, crypto, Web 3.0 and pop culture.",
 			],
 		},
 		contact: {
 			text: [
-				"If you would like to get in touch with me, be it for exploring a product, technology or Building a Coomunity or anything Pop-culture, a business, or to just say hi, feel free to send me an email at namratha2398@gmail.com",
+				"If you would like to get in touch with me, be it for exploring a product, technology or building a community or anything pop-culture, a business, or to just say hi, feel free to send me an email at namratha2398@gmail.com",
 			],
 		},
 	},
@@ -27,21 +27,21 @@ export default {
 	experience: [
 		{
 			title: "QuEST Global",
-			duration: "September 2020 - Present",			
+			duration: "September 2020 - present",			
 			subtitle: "Software Engineer - Build Manager",
 			details: [
-				"Responsible for Build Releases as part of Build Management Team of AT DIS (DC) Mainline Signalling -2.",
-				"Working towards fast delivery of software build releases as developer changes done, by performing integration testing and software build releaes for the Onboard teams",
+				"Responsible for build releases as part of Build Management Team of AT DIS (DC) Mainline Signalling -2.",
+				"Working towards fast delivery of software build releases as developer changes are done, by performing integration testing and software build release for the onboard teams",
 			],
 			tags: [ "Integration Testing", "Test scripts Automation", "Agile Methodolgies", "Scrum Master",],
 			icon: "train",
 			
 			title: "QuEST Global",
-			duration: "Nov 2021 - Present",			
+			duration: "Nov 2021 - present",			
 			subtitle: "Software Engineer - Build Manager",
 			details: [
-				"Responsible for Build Releases as part of Build Management Team of AT DIS (DC) Mainline Signalling -2.",
-				"Working towards fast delivery of software build releases as developer changes done, by performing integration testing and software build releaes for the Onboard teams",
+				"Responsible for build releases as part of Build Management Team of AT DIS (DC) Mainline Signalling -2.",
+				"Working towards fast delivery of software build releases as developer changes are done, by performing integration testing and software build release for the onboard teams",
 			],
 			tags: [ "Integration Testing", "Test scripts Automation", "Agile Methodolgies", "Scrum Master",],
 			icon: "train",		
@@ -51,7 +51,7 @@ export default {
 			duration: "-",
 			subtitle: "Trainee Software Engineer",
 			details: [
-				"Acted as QA Tester for the ALSTOM DIS operations Tools team for ATE-OTS product. Designing Test cases, Black box Testing, Report documentation",
+				"Acted as QA Tester for the ALSTOM DIS operations tools team for ATE-OTS product. designing test cases, black box testing, report documentation",
 			],
 			tags: ["QT - QML", "C++", "XAML", "Testcases & Reports",],
 			icon: "train",
@@ -63,7 +63,7 @@ export default {
 			subtitle: "Project Intern",
 			details: [
 				"Used Raspberry pi to connect with Accelerometer and GPS module sensor attached to vehicle and remotely controlled the execution on roads to collect the data",
-			    "Published the Research paper in International Journal of Research in computer science, Engineering and Information Technology in Dec 2019.",
+			    "Published a Research paper for International Journal of Research in Computer Science, Engineering and Information Technology in Dec 2019.",
 			],
 			tags: ["Python", "Data Analytics", "Raspberry Pi", "Sensors",],
 			icon: "map-marked-alt",
@@ -73,7 +73,7 @@ export default {
 			duration: "Feb 2020 - May 2020",
 			subtitle: "Business Development Intern",
 			details: [
-				"Worked on Business development team by collecting valid data of sports achievers and handled their business by creating ideas, executing them through collaboration and improved Business portfolio",
+				"Worked with Business development team as an Intern by collecting valid data of sports achievers and handled their business by creating ideas, executing them through collaboration and improved business portfolio",
 			],
 			tags: ["Social Media Portfolio", "MS Word", "MS Excel",],
 			icon: "business-time",
@@ -83,7 +83,7 @@ export default {
 			duration: "Mar 2018 - May 2018",
 			subtitle: "Content Writer",
 			details: [
-				"Worked for social Media Team by creating posts for the Social website and collaborated with other NGOs for creating valuable content",
+				"Worked for social media team by creating posts for the social website and collaborated with other NGOs for creating valuable content",
 			],
 			tags: ["Social Media Portfolio", "MS Word", "Website Content",],
 			icon: "edit",
@@ -106,9 +106,9 @@ export default {
 			duration: "Sep 2021 - June 2022",
 			subtitle: "Chapter Lead - Tumkur",
 			details: [
-				"Lead a Tumkur region community on Azure deevloper tools and technology by hosting live online session on Git, Github, Gitlab, Blockchain and more by industry experts.",
+				"Lead a Tumkur region community on Azure devloper tools and technology by hosting live online session on git, github, gitlab, blockchain and more by industry experts.",
 			],
-			tags: ["StreamYard", "Camva", "Meetups Page",],
+			tags: ["StreamYard", "Canva", "Meetups Page",],
 			icon: "cloud",
 		},
 		{
@@ -116,8 +116,8 @@ export default {
 			duration: "Aug 2019 - Aug 2021",
 			subtitle: "Community Organizer - Bangalore",
 			details: [
-				"collaborated with tech communities to organize Google dev fest 2019, Tensorflow roadshow with Microsoft reactor and more.",
-				"Co-Reviewed the Code merges by students for open source in Github branches for the monthly hosted coding challenges in chapter community Repository.",
+				"Collaborated with tech communities to organize Google dev fest 2019, Tensorflow roadshow with Microsoft reactor and more.",
+				"Co-reviewed the code merges by students for open source in Github branches for the monthly hosted coding challenges in chapter community Repository.",
 			],
 			tags: ["Social Media", "Github Code Reviewer", "Logistics",],
 			icon: "book-reader",
@@ -140,7 +140,7 @@ export default {
 				projectName: "Programming Diaries",
 				image: "images/programmingdiaries.png",
 				summary:
-					"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
+					"Developed a full stack blog application to provide content on technical topics across the internet with admin interface.",
 				preview: "https://programmingdiaries.herokuapp.com/",
 				techStack: [
 					"Django",
@@ -154,7 +154,7 @@ export default {
 				projectName: "Find Your Bank",
 				image: "images/findyourbank.png",
 				summary:
-					"Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
+					"Developed a react application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
 				preview: "https://clever-fermi-0d5d76.netlify.app",
 				techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
 			},
@@ -162,7 +162,7 @@ export default {
 				projectName: "Web Portfolio",
 				image: "images/portfolio.png",
 				summary:
-					"Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
+					"Web Portfolio to showcase academics, skills, projects and contact details in finer manner.",
 				preview: "https://github.com/vinaysomawat/Travographer-Portal",
 				techStack: ["HTML", "Bootstrap", "JavaScript"],
 			},
@@ -170,7 +170,7 @@ export default {
 				projectName: "Resume Builder",
 				image: "images/resume-builder.png",
 				summary:
-					"Browser based editor to build and download Resumes in a customizable templates.",
+					"Browser based editor to build and download resumes in a customizable templates.",
 				preview: "https://vinaysomawat.github.io/Resume-Builder",
 				techStack: ["HTML", "Bootstrap", "JavaScript"],
 			},
@@ -183,9 +183,9 @@ export default {
 			duration: "Aug 2016 - Aug 2020",
 			subtitle: "New Horizon College of Engineering",
 			details: [
-				"Presented and Published a Paper on Safe Ride: Automatic Detection of Potholes and Humps on Roads using ultrasonic sensor in Iternational Conference on Innovation Research in Engineering, Management and Sciences (ICIREMS-2019).",
-				"Won 1st Prize at Social Innovation Hackathon Accelathon 2019 conducted by BCIC (Bangalore Chambers of Industry and Commerce) for the IoT Project SMART STICK.",
-				"Won 3rd prize at QuEST Global IoT Hackathon for the Web Development Project Digital Library.",
+				"Presented and Published a Paper on Safe Ride: Automatic detection of potholes and humps on roads using ultrasonic sensor in Iternational Conference on Innovation Research in Engineering, Management and Sciences (ICIREMS-2019).",
+				"Won 1st Prize at Social Innovation Hackathon Accelathon 2019 conducted by BCIC (Bangalore Chambers of Industry and Commerce) for the IoT project SMART STICK.",
+				"Won 3rd prize at QuEST Global IoT Hackathon for the Web DevelopmentpProject Digital Library.",
 				"Secured 9.44 aggregate CGPA in B.Tech",
 			],
 			tags: [
@@ -202,7 +202,7 @@ export default {
 			subtitle: "Sri Adichunchanagiri Independent Pre University",
 			details: [
 				"Qualified JEE Mains.",
-				"Secured 91 percentile in Class 12th Boards Examinations.",
+				"Secured 91 percentile in Class 12th Board Examination.",
 			],
 			tags: ["Physics", "Chemistry", "Mathematics", "Biology",],
 			icon: "university",
@@ -212,7 +212,7 @@ export default {
 			duration: "June 2011 - Mar 2014",
 			subtitle: "High School - Karnataka State Board",
 			details: [
-				"Secured 89.76 percentile in Class 10th Boards Examinations.",
+				"Secured 89.76 percentile in Class 10th Board Examination.",
 			],
 			tags: [ ],
 			icon: "school",
