@@ -40,8 +40,7 @@ export default {
 			duration: "Nov 2021 - present",			
 			subtitle: "Software Engineer - Build Manager",
 			details: [
-				"Responsible for build releases as part of Build Management Team of AT DIS (DC) Mainline Signalling -2.",
-				"Working towards fast delivery of software build releases as developer changes are done, by performing integration testing and software build release for the onboard teams",
+				"As Build Manager for Integration Team responsible for EO Build Software Releases as part of BM Team of AT-DIS (DC) Mainline Signalling -2 for ALSTOM product in Rail Domain.",
 			],
 			tags: [ "Integration Testing", "Test scripts Automation", "Agile Methodolgies", "Scrum Master",],
 			icon: "train",		
@@ -51,7 +50,7 @@ export default {
 			duration: "-",
 			subtitle: "Trainee Software Engineer",
 			details: [
-				"Acted as QA Tester for the ALSTOM DIS operations tools team for ATE-OTS product. designing test cases, black box testing, report documentation",
+				"Before acted as QA Tester for the AT-DIS operations Tools team for ATE-OTS product. Designing Test cases, Black box testing, Report documentation",
 			],
 			tags: ["QT - QML", "C++", "XAML", "Testcases & Reports",],
 			icon: "train",
