@@ -30,19 +30,18 @@ export default {
 			duration: "September 2020 - present",			
 			subtitle: "Software Build Manager",
 			details: [
-				"Responsible for build releases as part of Build Management Team of AT DIS (DC) Mainline Signalling -2.",
-				"Working towards fast delivery of software build releases as developer changes are done, by performing integration testing and software build release for the onboard teams",
+				"Acting as lead for EO software build releases as part of the integration team for the developers’ code changes that are delivered as solutions for ALSTOM product AT-DIS (DC) Mainline Signaling-2.",
 			],
-			tags: [ "Integration Testing", "Test scripts Automation", "Agile Methodolgies", "Scrum Master",],
+			tags: [ "Builds and Release","Integration Testing", "Test scripts Automation", "Scrum Master",],
 			icon: "train",
 			
 			title: "QuEST Global",
 			duration: "Nov 2021 - present",			
 			subtitle: "Software Build Manager",
 			details: [
-				"As Build Manager for Integration Team responsible for EO Build Software Releases as part of BM Team of AT-DIS (DC) Mainline Signalling -2 for ALSTOM product in Rail Domain.",
+				"Acting as lead for EO software build releases as part of the integration team for the developers’ code changes that are delivered as solutions for ALSTOM product AT-DIS (DC) Mainline Signaling-2.",
 			],
-			tags: [ "Integration Testing", "Test scripts Automation", "Agile Methodolgies", "Scrum Master",],
+			tags: [ "Builds and Release","Integration Testing", "Test scripts Automation", "Scrum Master",],
 			icon: "train",		
 		},
 		{
@@ -50,7 +49,7 @@ export default {
 			duration: "-",
 			subtitle: "Trainee Software Engineer",
 			details: [
-				"Before acted as QA Tester for the AT-DIS operations Tools team for ATE-OTS product. Designing Test cases, Black box testing, Report documentation",
+				"Prior worked for the AT-DIS operations tools team for ATE-OTS product. Designing Test cases, executing, and documentation",
 			],
 			tags: ["QT - QML", "C++", "XAML", "Testcases & Reports",],
 			icon: "train",
@@ -61,8 +60,8 @@ export default {
 			duration: "Jan 2020 - August 2020",
 			subtitle: "Project Intern",
 			details: [
-				"Used Raspberry pi to connect with Accelerometer and GPS module sensor attached to vehicle and remotely controlled the execution on roads to collect the data",
-			    "Published a Research paper for International Journal of Research in Computer Science, Engineering and Information Technology in Dec 2019.",
+				"Developed a web map based app to represent the humps and potholes in roads travelled using python and flask API. Published an journal paper for project done using raspberry pi to connect with accelerometer and GPS module sensor attached to vehicle.",
+			    	"Published a Research paper for International Journal of Research in Computer Science, Engineering and Information Technology in Dec 2019.",
 			],
 			tags: ["Python", "Data Analytics", "Raspberry Pi", "Sensors",],
 			icon: "map-marked-alt",
@@ -72,7 +71,7 @@ export default {
 			duration: "Feb 2020 - May 2020",
 			subtitle: "Business Development Intern",
 			details: [
-				"Worked with Business development team as an Intern by collecting valid data of sports achievers and handled their business by creating ideas, executing them through collaboration and improved business portfolio",
+				"worked on the business development team by collecting valid data on sports achievers and handled their business by creating ideas, executing them through collaboration, and developing a strategy for improving their business portfolio.",
 			],
 			tags: ["Social Media Portfolio", "MS Word", "MS Excel",],
 			icon: "business-time",
@@ -91,13 +90,13 @@ export default {
 	
 	community: [
 		{
-			title: "KodeVerse",
-			duration: "Mar 2021 - Present",
-			subtitle: "Community Founder",
+			title: "SuperWomen DAO",
+			duration: "Jun 2022 - Present",
+			subtitle: "Growth",
 			details: [
-				"Founded small community to provide cold e-mail & profile building services for students and working professionals in product based companies.",
+				"Responsible for driving onboard community growth, scaling and building resource for DAO’s proof of work.",
 			],
-			tags: ["Telegram", "LinkedIn", "Twitter",],			
+			tags: ["Social media", "Notion",],			
 			icon: "network-wired",
 		},
 		{
@@ -105,7 +104,7 @@ export default {
 			duration: "Sep 2021 - June 2022",
 			subtitle: "Chapter Lead - Tumkur",
 			details: [
-				"Lead a Tumkur region community on Azure devloper tools and technology by hosting live online session on git, github, gitlab, blockchain and more by industry experts.",
+				"Lead my regional chapter by hosting and planning live online azure tech sessions with guest speakers using streamyard for cloud computing tools, including git, gitlab, github, DevOps, azure cloud, and blockchain.",
 			],
 			tags: ["StreamYard", "Canva", "Meetups Page",],
 			icon: "cloud",
@@ -115,8 +114,8 @@ export default {
 			duration: "Aug 2019 - Aug 2021",
 			subtitle: "Community Organizer - Bangalore",
 			details: [
-				"Collaborated with tech communities to organize Google dev fest 2019, Tensorflow roadshow with Microsoft reactor and more.",
-				"Co-reviewed the code merges by students for open source in Github branches for the monthly hosted coding challenges in chapter community Repository.",
+				"Acted as a co-reviewer for code merges in ”code with girlscript bengaluru” repository on monthly open source coding challenges.",
+				"Acted as an organiser for the chapter at offline gatherings and worked with other tech organizations to aid students at hackathons and education outreach initiatives..",
 			],
 			tags: ["Social Media", "Github Code Reviewer", "Logistics",],
 			icon: "book-reader",
