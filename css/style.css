@@ -628,7 +628,7 @@ small { font-size: 15px; }
 .container { width: 100%; max-width: 1200px; margin: 10px auto; }
 .project-pic { width: 150px; height: 150px; display: block; }
 /*Card Styling*/
-.card { border: 1px solid green; background-color: black; }
+.card { border: 1px solid green; }
 .card__wrap--inner { padding: 0.5rem; }
 .card__item { padding: 0px 5px 1px 8px; text-align: center; }
 .card__footer { padding: 5px; text-align: center; overflow: hidden; border-top: 1px solid GREEN; }
