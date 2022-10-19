@@ -2341,7 +2341,7 @@ small { font-size: 15px; }
 .project-pic { width: 150px; height: 150px; display: block; }
   
   .responsive {
-	padding: 0 6px;
+	padding: 6px 6px;
 	float:left;
 	display: flex;  
 	width: 100%;
