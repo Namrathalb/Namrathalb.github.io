@@ -90,13 +90,23 @@ export default {
 	
 	community: [
 		{
+			title: "The Product House",
+			duration: "October 2022 - Present",
+			subtitle: "Strategy - Discord",
+			details: [
+				"Responsible for strategising discord community in driving engagement and onboarding members.",
+			],
+			tags: ["Social media", "Notion",],			
+			icon: "network-wired",
+		},
+		{
 			title: "SuperWomen DAO",
 			duration: "Jun 2022 - Present",
-			subtitle: "Growth",
+			subtitle: "Content & Community",
 			details: [
 				"Responsible for driving onboard community growth, scaling and building resource for DAO’s proof of work.",
 			],
-			tags: ["Social media", "Notion",],			
+			tags: ["Social media", "Notion", "MS Office",],			
 			icon: "network-wired",
 		},
 		{
