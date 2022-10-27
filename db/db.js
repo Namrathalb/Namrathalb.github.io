@@ -96,7 +96,7 @@ export default {
 			details: [
 				"Responsible for strategising discord community in driving engagement and onboarding members.",
 			],
-			tags: ["Social media", "Notion",],			
+			tags: ["Social media", "Notion", "strategy",],			
 			icon: "network-wired",
 		},
 		{
