@@ -5,7 +5,7 @@ export default {
 				"Hi &#128075;",
 				"I'm Namratha L Bemane, currently working as a Software Build Manager at QuEST Global. Founder of Kodeverse Community. I did my undergrad in CSE from NHCE Bangalore.",
 				"I've been a developer, tester and currently as Build Manager in my present role. I'm passionate about building products that solves real world challenges using technologies. I'm interested in building products & communities both in Tech and Non-Tech space. I have hands on experience of delivering software build solutaions and team management.",
-				"I love to Teach, listing  music, networking, crypto, Web 3.0 and pop culture.",
+				" also Consult in communities for Growth, Strategy, Content & Community Building for Superwomen Dao and The Product house.", "I love to Teach, listing  music, networking, crypto, Web 3.0 and pop culture.",
 			],
 		},
 		contact: {
@@ -28,7 +28,7 @@ export default {
 		{
 			title: "QuEST Global",
 			duration: "September 2020 - present",			
-			subtitle: "Software Build Manager",
+			subtitle: "Software Build and Release Manager",
 			details: [
 				"Acting as lead for EO software build releases as part of the integration team for the developers’ code changes that are delivered as solutions for ALSTOM product AT-DIS (DC) Mainline Signaling-2.",
 			],
@@ -37,7 +37,7 @@ export default {
 			
 			title: "QuEST Global",
 			duration: "Nov 2021 - present",			
-			subtitle: "Software Build Manager",
+			subtitle: "Software Build and Release Manager",
 			details: [
 				"Acting as lead for EO software build releases as part of the integration team for the developers’ code changes that are delivered as solutions for ALSTOM product AT-DIS (DC) Mainline Signaling-2.",
 			],
