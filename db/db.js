@@ -26,27 +26,37 @@ export default {
 	
 	experience: [
 		{
-			title: "QuEST Global",
-			duration: "September 2020 - present",			
-			subtitle: "Software Build and Release Manager",
+			title: "ClickPost",
+			duration: "February 2023 - present",			
+			subtitle: "Associate Product Manager (Tech)",
 			details: [
-				"Acting as lead for EO software build releases as part of the integration team for the developers’ code changes that are delivered as solutions for ALSTOM product AT-DIS (DC) Mainline Signaling-2.",
+				"Acting as Product Manager for Carrier Integrations, Invoice reconcilation for a logistics and supplychain Tech API Product.",
 			],
-			tags: [ "Builds and Release","Integration Testing", "Test scripts Automation", "Scrum Master",],
-			icon: "train",
+			tags: [ "RESTful API","Postman", "Confluence", "Jira",],
+			icon: "logistics",
 			
-			title: "QuEST Global",
-			duration: "Nov 2021 - present",			
-			subtitle: "Software Build and Release Manager",
+			title: "ClickPost",
+			duration: "February 2023 - present",			
+			subtitle: "Associate Product Manager (Tech)",
 			details: [
-				"Acting as lead for EO software build releases as part of the integration team for the developers’ code changes that are delivered as solutions for ALSTOM product AT-DIS (DC) Mainline Signaling-2.",
+				"Acting as Product Manager for Carrier Integrations, Invoice reconcilation for a logistics and supplychain Tech API Product.",
 			],
-			tags: [ "Builds and Release","Integration Testing", "Test scripts Automation", "Scrum Master",],
-			icon: "train",		
+			tags: [ "RESTful API","Postman", "Confluence", "Jira",],
+			icon: "logistics",
 		},
 		{
 			title: "QuEST Global",
-			duration: "-",
+			duration: "November 2021 - January 2023",			
+			subtitle: "Software Build and Release Manager",
+			details: [
+				"Acting as lead for EO software build releases as part of the integration team for the developers’ code changes that are delivered as solutions for ALSTOM product AT-DIS (DC) Mainline Signaling-2.",
+			],
+			tags: [ "Builds and Release","Integration Testing", "Test scripts Automation", "Scrum Master",],
+			icon: "train",	
+		},
+		{
+			title: "QuEST Global",
+			duration: "August 2020 - November 2021",
 			subtitle: "Trainee Software Engineer",
 			details: [
 				"Prior worked for the AT-DIS operations tools team for ATE-OTS product. Designing Test cases, executing, and documentation",
