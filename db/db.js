@@ -3,7 +3,7 @@ export default {
 		about: {
 			text: [
 				"Hi &#128075;",
-				"I'm Namratha L Bemane, currently working as a Software Build Manager at QuEST Global. Founder of Kodeverse Community. I did my undergrad in CSE from NHCE Bangalore.",
+				"I'm Namratha L Bemane, currently working as a Associate product Manager at ClickPost. Previously worked as Software Build and Release Manager at Quest Global. Founder of Kodeverse Community. I did my undergrad in CSE from NHCE Bangalore.",
 				"I've been a developer, tester and currently as Build Manager in my present role. I'm passionate about building products that solves real world challenges using technologies. I'm interested in building products & communities both in Tech and Non-Tech space. I have hands on experience of delivering software build solutaions and team management.",
 				" also Consult in communities for Growth, Strategy, Content & Community Building for Superwomen Dao and The Product house.", "I love to Teach, listing  music, networking, crypto, Web 3.0 and pop culture.",
 			],
@@ -33,7 +33,7 @@ export default {
 				"Acting as Product Manager for Carrier Integrations, Invoice reconcilation for a logistics and supplychain Tech API Product.",
 			],
 			tags: [ "RESTful API","Postman", "Confluence", "Jira",],
-			icon: "logistics",
+			icon: "truck",
 			
 			title: "ClickPost",
 			duration: "February 2023 - present",			
@@ -42,7 +42,7 @@ export default {
 				"Acting as Product Manager for Carrier Integrations, Invoice reconcilation for a logistics and supplychain Tech API Product.",
 			],
 			tags: [ "RESTful API","Postman", "Confluence", "Jira",],
-			icon: "logistics",
+			icon: "truck",
 		},
 		{
 			title: "QuEST Global",
