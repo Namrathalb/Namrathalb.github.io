@@ -30,7 +30,8 @@ export default {
 			duration: "February 2023 - present",			
 			subtitle: "Associate Product Manager (Tech)",
 			details: [
-				"Leading pre-dispatch Tech Product team comprising of Backend Engineering team of SDEs which handles the API integration of carriers, Building Features and delivering Logistics and supply chain tech solutions to enterprises/brands/eCommerce business (B2B and B2C) in domestic and international regions and markets."
+				"Leading pre-dispatch Tech Product team comprising of Backend Engineering team of SDEs which handles the API integration of carriers, Building Features, and delivering Logistics and supply chain tech 
+				"solutions to enterprises/brands/eCommerce business (B2B and B2C) in domestic and international regions and markets."
 				"Handle end-to-end API Integrations of couriers/carrier partner APIs in India (domestic) and International (US, UAE, ME, APAC, CA, MX, and more) for Clickpost."
 				"Building Custom features and solutions to enable Enterprise eCommerce business and brands with insights to use of carriers and their services in a seemingly easy flow via clickpost dashboard"
 				"Collaborated with support, onboarding, and partnership teams helping in resolving any customer/E-commerce client Request and queries to clear day-to-day API/logistics operations".
@@ -38,17 +39,7 @@ export default {
 			tags: ["RESTful API", "Postman", "Confluence", "Jira", "Sheets", "Metabase",],
 			icon: "truck",
 			
-			title: "ClickPost",
-			duration: "February 2023 - present",			
-			subtitle: "Associate Product Manager (Tech)",
-			details:  [
-				"Leading Pre-dispatch Tech Product team comprising of Backend Engineering team of SDEs which handles the API integration of carriers, Building Features, and delivering Logistics and supply chain tech solutions to enterprises/brands/eCommerce business (B2B and B2C) in domestic and international regions and markets."
-				"Handle end-to-end API Integrations of couriers/carrier partner APIs in India (domestic) and International (US, UAE, ME, APAC, CA, MX, and more) for Clickpost."
-				"Building Custom features and solutions to enable Enterprise eCommerce business and brands with insights to use of carriers and their services in a seemingly easy flow via clickpost dashboard"
-				"Collaborated with support, onboarding, and partnership teams helping in resolving any customer/E-commerce client Request and queries to clear day-to-day API/logistics operations".
-			],
-			tags: ["RESTful API", "Postman", "Confluence", "Jira", "Sheets", "Metabase",],
-			icon: "truck",
+			
 		},
 		{
 			title: "QuEST Global",
@@ -57,7 +48,7 @@ export default {
 			details: [
 				"Acting as lead for EO software build releases as part of the integration team for the developers’ code changes that are delivered as solutions for ALSTOM product AT-DIS (DC) Mainline Signaling-2.",
 			],
-			tags: ["Builds and Release","Integration Testing", "Test scripts Automation", "Scrum Master",],
+			tags: ["Builds and Release", "Integration Testing", "Test scripts Automation", "Scrum Master",],
 			icon: "train",	
 		},
 		{
