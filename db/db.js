@@ -5,7 +5,7 @@ export default {
 				"Hi &#128075;",
 				"I'm Namratha L Bemane currently working as an Associate Product Manager (Tech) at ClickPost. I Lead Product Management in Tech API integrations in the Pre-Dispatch Module at Clickpost for different Carrier APIs in domestic and international regions for eCommerce and enterprises in the B2B & B2C segment.",
 				"I've been a developer and tester as a Software Build and Release Manager for Integrations. I'm passionate about building products that solve real-world challenges using technologies. I'm interested in building products & communities both in the Tech and Non-Tech space. I have hands-on experience in delivering software build solutions and team management.",
-				"Also I Consult in communities for Growth, Strategy, Content & Community Building for Superwomen Dao and The Product house.", "I love to Teach, listing  music, networking, crypto, Web 3.0, and pop culture.",
+				"Also I Consult in communities for Growth, Strategy, Content & Community Building for Superwomen Dao and The Product House.", "I love to Teach, listen  to music, networking, crypto, Web 3.0, and pop culture.",
 			],
 		},
 		contact: {
@@ -30,7 +30,8 @@ export default {
 			duration: "February 2023 - present",			
 			subtitle: "Associate Product Manager (Tech)",
 			details: [
-				"Leading pre-dispatch Tech Product team comprising of Backend Engineering team of SDEs which handles the API integration of carriers, Building Features, and delivering Logistics and supply chain tech solutions to enterprises/brands/eCommerce business (B2B and B2C) in domestic and international regions and markets.",
+				"Leading pre-dispatch Tech Product team comprising of Backend Engineering team of SDEs which handles the API integration of carriers, Building Features in domestic and international regions and markets.",
+				"Delivering Logistics and supply chain tech solutions to enterprises/brands/eCommerce business (B2B and B2C).",
 				"Handle end-to-end API Integrations of couriers/carrier partner APIs in India (domestic) and International (US, UAE, ME, APAC, CA, MX, and more) for Clickpost.",
 				"Building Custom features and solutions to enable Enterprise eCommerce business and brands with insights to use of carriers and their services in a seemingly easy flow via clickpost dashboard",
 				"Collaborated with support, onboarding, and partnership teams helping in resolving any customer/E-commerce client Request and queries to clear day-to-day API/logistics operations",
@@ -38,12 +39,13 @@ export default {
 			tags: ["RESTful API", "Postman", "Confluence", "Jira", "Sheets", "Metabase",],
 			icon: "truck",
 		},
-			{ 
+		{ 
 			title: "ClickPost",
 			duration: "February 2023 - present",			
 			subtitle: "Associate Product Manager (Tech)",
 			details:  [
-				"Leading pre-dispatch Tech Product team comprising of Backend Engineering team of SDEs which handles the API integration of carriers, Building Features, and delivering Logistics and supply chain tech solutions to enterprises/brands/eCommerce business (B2B and B2C) in domestic and international regions and markets.",
+				"Leading pre-dispatch Tech Product team comprising of Backend Engineering team of SDEs which handles the API integration of carriers, Building Features in domestic and international regions and markets.",
+				"Delivering Logistics and supply chain tech solutions to enterprises/brands/eCommerce business (B2B and B2C).",
 				"Handle end-to-end API Integrations of couriers/carrier partner APIs in India (domestic) and International (US, UAE, ME, APAC, CA, MX, and more) for Clickpost.",
 				"Building Custom features and solutions to enable Enterprise eCommerce business and brands with insights to use of carriers and their services in a seemingly easy flow via clickpost dashboard",
 				"Collaborated with support, onboarding, and partnership teams helping in resolving any customer/E-commerce client Request and queries to clear day-to-day API/logistics operations",
@@ -51,6 +53,7 @@ export default {
 			tags: ["RESTful API", "Postman", "Confluence", "Jira", "Sheets", "Metabase",],
 			icon: "truck",
 		},
+		
 		{
 			title: "QuEST Global",
 			duration: "November 2021 - January 2023",			
@@ -78,7 +81,7 @@ export default {
 			duration: "Jan 2020 - August 2020",
 			subtitle: "Project Intern",
 			details: [
-				"Developed a web map based app to represent the humps and potholes in roads travelled using python and flask API. Published an journal paper for project done using raspberry pi to connect with accelerometer and GPS module sensor attached to vehicle.",
+				"Developed a web map-based app to represent the humps and potholes in roads traveled using python and flask API. Published an journal paper for project done using raspberry pi to connect with accelerometer and GPS module sensor attached to vehicle.",
 			    	"Published a Research paper for International Journal of Research in Computer Science, Engineering and Information Technology in Dec 2019.",
 			],
 			tags: ["Python", "Data Analytics", "Raspberry Pi", "Sensors",],
