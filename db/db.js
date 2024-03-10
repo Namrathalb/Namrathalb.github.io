@@ -3,9 +3,9 @@ export default {
 		about: {
 			text: [
 				"Hi &#128075;",
-				"I'm Namratha L Bemane, currently working as a Associate product Manager at ClickPost. Previously worked as Software Build and Release Manager at Quest Global. Founder of Kodeverse Community. I did my undergrad in CSE from NHCE Bangalore.",
-				"I've been a developer, tester and currently as Build Manager in my present role. I'm passionate about building products that solves real world challenges using technologies. I'm interested in building products & communities both in Tech and Non-Tech space. I have hands on experience of delivering software build solutaions and team management.",
-				" also Consult in communities for Growth, Strategy, Content & Community Building for Superwomen Dao and The Product house.", "I love to Teach, listing  music, networking, crypto, Web 3.0 and pop culture.",
+				"I'm Namratha L Bemane currently working as a Associate product Manager (Tech) at ClickPost. I Lead Product Management in Tech API integrations in the Pre-Dispatch Module at Clickpost for different Carrier APIs in domestic and international regions for eCommerce and enterprises in the B2B & B2C segment."
+				"I've been a developer, and tester in the past as Software Build and Release Manager for Integrations. I'm passionate about building products that solves real world challenges using technologies. I'm interested in building products & communities both in the Tech and Non-Tech space. I have hands-on experience in delivering software build solutions and team management.",
+				" Also Consult in communities for Growth, Strategy, Content & Community Building for Superwomen Dao and The Product house.", "I love to Teach, listing  music, networking, crypto, Web 3.0, and pop culture.",
 			],
 		},
 		contact: {
@@ -30,18 +30,24 @@ export default {
 			duration: "February 2023 - present",			
 			subtitle: "Associate Product Manager (Tech)",
 			details: [
-				"Acting as Product Manager for Carrier Integrations, Invoice reconcilation for a logistics and supplychain Tech API Product.",
+				"Lead Pre-dispatch Tech Product team comprising of Backend Engineering team of SDEs which handles the API integration of carriers, Building Features and delivering Logistics and supply chain tech solutions to enterprises/brands/eCommerce business (B2B and B2C) in domestic and international regions and markets."
+				"Handle end-to-end API Integrations of couriers/carrier partner APIs in India (domestic) and International (US, UAE, ME, APAC, CA, MX, and more) for Clickpost."
+				"Building Custom features and solutions to enable Enterprise eCommerce business and brands with insights to use of carriers and their services in a seemingly easy flow via clickpost dashboard"
+				"Collaborated with support, onboarding, and partnership teams helping in resolving any customer/E-commerce client Request and queries to clear day to day api/logistics operations".
 			],
-			tags: [ "RESTful API","Postman", "Confluence", "Jira",],
+			tags: [ "RESTful API", "Postman", "Confluence", "Jira", "Sheets", "Metabase",],
 			icon: "truck",
 			
 			title: "ClickPost",
 			duration: "February 2023 - present",			
 			subtitle: "Associate Product Manager (Tech)",
-			details: [
-				"Acting as Product Manager for Carrier Integrations, Invoice reconcilation for a logistics and supplychain Tech API Product.",
+			details:  [
+				"Lead Pre-dispatch Tech Product team comprising of Backend Engineering team of SDEs which handles the API integration of carriers, Building Features and delivering Logistics and supply chain tech solutions to enterprises/brands/eCommerce business (B2B and B2C) in domestic and international regions and markets."
+				"Handle end-to-end API Integrations of couriers/carrier partner APIs in India (domestic) and International (US, UAE, ME, APAC, CA, MX, and more) for Clickpost."
+				"Building Custom features and solutions to enable Enterprise eCommerce business and brands with insights to use of carriers and their services in a seemingly easy flow via clickpost dashboard"
+				"Collaborated with support, onboarding, and partnership teams helping in resolving any customer/E-commerce client Request and queries to clear day to day api/logistics operations".
 			],
-			tags: [ "RESTful API","Postman", "Confluence", "Jira",],
+			tags: [ "RESTful API", "Postman", "Confluence", "Jira", "Sheets", "Metabase",],
 			icon: "truck",
 		},
 		{
@@ -101,10 +107,10 @@ export default {
 	community: [
 		{
 			title: "The Product House",
-			duration: "October 2022 - Present",
+			duration: "October 2022 - November 2023,
 			subtitle: "Strategy - Discord",
 			details: [
-				"Responsible for strategising discord community in driving engagement and onboarding members.",
+				"Responsible for strategizing discord community in driving engagement and onboarding members.",
 			],
 			tags: ["Social media", "Notion", "strategy",],			
 			icon: "network-wired",
