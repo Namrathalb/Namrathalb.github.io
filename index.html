@@ -1,628 +1,187 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Namratha L Bemane | Product Manager</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Namratha L Bemane — Technical Product Manager specialising in API platforms, AI tooling, and logistics SaaS." />
   <meta name="keywords" content="product manager, technical PM, API integrations, logistics, B2B SaaS, ClickPost, Bengaluru" />
   <meta name="author" content="Namratha L Bemane" />
+  <link rel="icon" type="image/png" href="images/logo.png" />
 
-  <!-- Social Media icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
 
-  <link rel="icon" type="image/png" href="/images/logo.png">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap" rel="stylesheet">
-
-  <!-- Animate.css -->
-  <link rel="stylesheet" href="css/animate.css">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="css/style.css">
-
-  <style>
-    /* ── Step 5: Skills grid overhaul ──────────────────────────── */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 1.2em 2em;
-      margin: 1em 0 1.5em 0;
-    }
-    .skills-grid-item {
-      background: #f7f9fc;
-      border-left: 3px solid #5078c2;
-      border-radius: 4px;
-      padding: 0.75em 1em;
-    }
-    .skills-grid-item h4 {
-      margin: 0 0 0.4em 0;
-      font-size: 0.78em;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: #5078c2;
-      font-weight: 700;
-    }
-    .skills-grid-item p {
-      margin: 0;
-      font-size: 0.85em;
-      color: #444;
-      line-height: 1.5;
-    }
-    @media (max-width: 768px) {
-      .skills-grid { grid-template-columns: 1fr; }
-    }
-
-    /* ── Work Experience & Education timeline cards ─────────────── */
-    .exp-card {
-      background: #fff;
-      border: 1px solid #e8edf5;
-      border-left: 4px solid #5078c2;
-      border-radius: 6px;
-      padding: 1.2em 1.4em;
-      margin-bottom: 1.4em;
-    }
-    .exp-card-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-wrap: wrap;
-      gap: 0.3em;
-      margin-bottom: 0.5em;
-    }
-    .exp-card-header h3 {
-      margin: 0;
-      font-size: 1em;
-      font-weight: 700;
-      color: #222;
-    }
-    .exp-card-header .exp-date {
-      font-size: 0.82em;
-      color: #5078c2;
-      font-weight: 600;
-      white-space: nowrap;
-    }
-    .exp-card-header .exp-company {
-      font-size: 0.88em;
-      color: #555;
-      font-style: italic;
-      width: 100%;
-    }
-    .exp-card ul {
-      margin: 0.6em 0 0 0;
-      padding-left: 1.2em;
-    }
-    .exp-card ul li {
-      font-size: 0.88em;
-      color: #444;
-      line-height: 1.6;
-      margin-bottom: 0.4em;
-    }
-    .exp-card ul li strong {
-      color: #222;
-    }
-
-    /* ── What I've Built cards ──────────────────────────────────── */
-    .built-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.2em;
-      margin: 1em 0;
-    }
-    .built-card {
-      background: #f7f9fc;
-      border: 1px solid #e0e7f0;
-      border-radius: 8px;
-      padding: 1.2em 1.3em;
-    }
-    .built-card h3 {
-      margin: 0 0 0.3em 0;
-      font-size: 0.95em;
-      font-weight: 700;
-      color: #222;
-    }
-    .built-card .built-tag {
-      display: inline-block;
-      background: #e8edf5;
-      color: #5078c2;
-      font-size: 0.72em;
-      font-weight: 600;
-      padding: 0.2em 0.6em;
-      border-radius: 3px;
-      margin-bottom: 0.6em;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-    .built-card p {
-      font-size: 0.85em;
-      color: #555;
-      line-height: 1.55;
-      margin: 0;
-    }
-    @media (max-width: 768px) {
-      .built-grid { grid-template-columns: 1fr; }
-    }
-
-    /* ── Community cards ────────────────────────────────────────── */
-    .community-card {
-      background: #fff;
-      border: 1px solid #e8edf5;
-      border-left: 4px solid #5078c2;
-      border-radius: 6px;
-      padding: 1em 1.3em;
-      margin-bottom: 1em;
-    }
-    .community-card h3 {
-      margin: 0 0 0.2em 0;
-      font-size: 0.95em;
-      font-weight: 700;
-      color: #222;
-    }
-    .community-card .comm-meta {
-      font-size: 0.8em;
-      color: #5078c2;
-      font-style: italic;
-      margin-bottom: 0.4em;
-    }
-    .community-card p {
-      font-size: 0.85em;
-      color: #555;
-      margin: 0;
-      line-height: 1.55;
-    }
-
-    /* ── Education card ─────────────────────────────────────────── */
-    .edu-card {
-      background: #f7f9fc;
-      border: 1px solid #e8edf5;
-      border-radius: 6px;
-      padding: 1.2em 1.4em;
-      margin-bottom: 1em;
-    }
-    .edu-card h3 {
-      margin: 0 0 0.2em 0;
-      font-size: 1em;
-      font-weight: 700;
-      color: #222;
-    }
-    .edu-card p {
-      margin: 0;
-      font-size: 0.87em;
-      color: #555;
-    }
-    .edu-card .edu-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.82em;
-      color: #5078c2;
-      margin-top: 0.3em;
-    }
-
-    /* ── About section buttons ──────────────────────────────────── */
-    .about-actions {
-      display: flex;
-      gap: 1em;
-      flex-wrap: wrap;
-      margin-top: 1.5em;
-    }
-    .about-actions .down a {
-      text-decoration: none;
-    }
-  </style>
-
-  <script type="module" src="js/populateHTML.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
-  <div id="colorlib-page">
-    <div class="container-wrap">
-      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar"
-        aria-expanded="false" aria-controls="navbar"><i></i></a>
 
-      <!-- ══════════════════ SIDEBAR ══════════════════ -->
-      <aside id="colorlib-aside" role="complementary" class="border js-fullheight no-print">
-        <div class="text-center">
-          <div class="author-img">
-            <img src="images/logo.png" alt="Namratha L Bemane">
-          </div>
-          <h1 id="colorlib-logo"><a href="./index.html">Namratha L Bemane</a></h1>
-          <p style="font-size:0.82em; color:#888; margin-top:-0.5em;">Product Manager · Bengaluru</p>
-          <div class="wrapper">
-            <a href="https://github.com/Namrathalb" target="_blank" class="icon github">
-              <div class="tooltip">Github</div>
-              <span><i class="fab fa-github"></i></span>
-            </a>
-            <a href="https://www.linkedin.com/in/namratha-l-bemane/" target="_blank" class="icon linkedin">
-              <div class="tooltip">LinkedIn</div>
-              <span><i class="fab fa-linkedin"></i></span>
-            </a>
-            <a href="https://medium.com/@namratha9823" target="_blank" class="icon medium">
-              <div class="tooltip">Medium</div>
-              <span><i class="fab fa-medium"></i></span>
-            </a>
-            <a href="https://twitter.com/namratha_bemane" target="_blank" class="icon twitter">
-              <div class="tooltip">Twitter</div>
-              <span><i class="fab fa-twitter"></i></span>
-            </a>
+  <!-- ══════════════ NAV ══════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">NLB</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#work">Product Work</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-resume-btn" onclick="window.open('https://drive.google.com/uc?export=download&id=1y4xh9j9me091FJC-NTMwGvn8rUU2juDs','_blank')">Download Resume</button>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#about" class="nav-mobile-link">About</a>
+      <a href="#experience" class="nav-mobile-link">Experience</a>
+      <a href="#work" class="nav-mobile-link">Product Work</a>
+      <a href="#community" class="nav-mobile-link">Community</a>
+      <a href="#achievements" class="nav-mobile-link">Achievements</a>
+      <a href="#contact" class="nav-mobile-link">Contact</a>
+      <a href="https://drive.google.com/uc?export=download&id=1y4xh9j9me091FJC-NTMwGvn8rUU2juDs" class="nav-mobile-link" target="_blank">Download Resume</a>
+    </div>
+  </nav>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-inner">
+      <div class="hero-badge">📍 Bengaluru, India · Open to PM opportunities</div>
+      <h1 class="hero-name">Namratha L Bemane</h1>
+      <p class="hero-role">Technical Product Manager</p>
+      <p class="hero-tagline">API Platforms · AI Tooling · Logistics SaaS · B2B Enterprise</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn-primary">View Product Work</a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/Namrathalb" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/namratha-l-bemane/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://medium.com/@namratha9823" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
+        <a href="https://twitter.com/namratha_bemane" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ STATS ══════════════ -->
+  <section class="stats-bar">
+    <div class="stats-inner" id="statsBar">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- ══════════════ ABOUT ══════════════ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">About</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="section-title">Building products that<br/><em>move things forward</em></h2>
+          <p class="about-text" id="aboutText"><!-- Populated by JS --></p>
+          <div class="about-cta">
+            <a href="https://drive.google.com/uc?export=download&id=1y4xh9j9me091FJC-NTMwGvn8rUU2juDs" class="btn-primary" target="_blank">Download Resume</a>
+            <a href="https://twitter.com/namratha_bemane/status/1569158311563653120" class="btn-ghost" target="_blank">Product Threads ↗</a>
           </div>
         </div>
-
-        <nav id="colorlib-main-menu" role="navigation" class="navbar" style="padding-top: 2em">
-          <div id="navbar" class="collapse">
-            <ul>
-              <li><a href="#" data-nav-section="about">About</a></li>
-              <li><a href="#" data-nav-section="skills">Skills</a></li>
-              <li><a href="#" data-nav-section="experience">Work Experience</a></li>
-              <li><a href="#" data-nav-section="blogs">Product Work</a></li>
-              <li><a href="#" data-nav-section="community">Community</a></li>
-              <li><a href="#" data-nav-section="education">Education</a></li>
-              <li><a href="#" data-nav-section="Achievement">Achievements</a></li>
-              <li><a href="#" data-nav-section="contact">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-      </aside>
-      <!-- ══════════════════ END SIDEBAR ══════════════════ -->
-
-      <!-- ══════════════════ MAIN CONTENT ══════════════════ -->
-      <div id="colorlib-main">
-
-        <!-- ── STEP 2: About (rewritten) ──────────────────────────── -->
-        <section class="colorlib-about" data-section="about">
-          <div class="colorlib-narrow-content">
-            <div class="row animate-box" data-animate-effect="fadeInLeft">
-              <div class="about-desc">
-                <h1>About</h1>
-                <p>
-                  I'm a <strong>Technical Product Manager</strong> with 3.5+ years of experience owning API platform
-                  products and AI-powered logistics tools at scale. At <strong>ClickPost</strong>, I manage the
-                  end-to-end lifecycle of a carrier API integration platform supporting <strong>450+ integrations</strong>
-                  across India, US, CA, MX, UK, UAE, and APAC — serving <strong>290+ active enterprise accounts</strong>
-                  across B2B, B2C, and D2C segments. Previously a Software Build &amp; Release Manager at
-                  <strong>Quest Global</strong>, and founder of <strong>KodeVerse</strong>, a career counseling community
-                  that grew to 1,500+ members.
-                </p>
-                <p>
-                  I bridge engineering, operations, and business stakeholders — translating complex technical
-                  integrations into measurable product outcomes. My work spans 0→1 AI tooling, logistics automation,
-                  and enterprise onboarding at scale.
-                </p>
-
-                <div class="about-actions">
-                  <button class="down">
-                    <a href="https://drive.google.com/uc?export=download&id=1y4xh9j9me091FJC-NTMwGvn8rUU2juDs"
-                      target="_blank">Download Resume</a>
-                  </button>
-                  <button class="down">
-                    <a href="https://twitter.com/namratha_bemane/status/1569158311563653120" target="_blank">
-                      Product Threads
-                    </a>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- ── STEP 5: Skills (text-based, labelled) ──────────────── -->
-        <section class="colorlib-skills" data-section="skills">
-          <div class="colorlib-narrow-content">
-            <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-              <div class="about-desc">
-                <h1>Skills</h1>
-                <div class="skills-grid">
-                  <div class="skills-grid-item">
-                    <h4>Product</h4>
-                    <p>PRDs · Roadmapping · Agile/Scrum · Backlog Prioritization · OKRs &amp; KPIs · User Stories · A/B Testing · Go-to-Market · Stakeholder Management</p>
-                  </div>
-                  <div class="skills-grid-item">
-                    <h4>Technical</h4>
-                    <p>REST APIs · Postman · SQL · Databricks · Metabase · n8n AI Workflows · Lovable AI · Claude API · Django · Figma · Python · Git</p>
-                  </div>
-                  <div class="skills-grid-item">
-                    <h4>Tools</h4>
-                    <p>Notion · Jira · Linear · Canva · Google Sheets · Slack</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- ── STEP 3: Work Experience (fully populated) ───────────── -->
-        <section class="colorlib-experience" data-section="experience">
-          <div class="colorlib-narrow-content">
-            <div class="row row-bottom-padded-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-              <div class="about-desc">
-                <h1>Work <span style="color: #5078c2">Experience</span></h1>
-              </div>
-            </div>
-
-            <div class="exp-card animate-box" data-animate-effect="fadeInLeft">
-              <div class="exp-card-header">
-                <h3>Product Manager</h3>
-                <span class="exp-date">Feb 2023 – Present</span>
-                <span class="exp-company">ClickPost · Bengaluru, India</span>
-              </div>
-              <ul>
-                <li>Defined product requirements and led cross-functional execution to ship an <strong>AI-powered address mapping and returns QC feature</strong> that reduced client order processing time from several minutes to <strong>under 10 seconds</strong> — a 95%+ latency improvement — deployed across all enterprise clients.</li>
-                <li>Architected and launched an <strong>internal AI code generation tool</strong> for SDEs using <strong>Claude and n8n workflows</strong>, with built-in QA automation; accelerated carrier integration development cycles and reduced manual engineering effort for new onboarding.</li>
-                <li>Built a <strong>real-time analytics dashboard</strong> using Lovable AI and n8n to surface customer onboarding health metrics; enabled the customer success team to proactively reduce onboarding lifecycle duration and identify at-risk accounts earlier.</li>
-                <li>Authored PRDs, API specifications, and user stories for complex logistics workflows; collaborated with engineering, QA, and enterprise stakeholders to define acceptance criteria, prioritize backlogs, and drive iterative shipping.</li>
-              </ul>
-            </div>
-
-            <div class="exp-card animate-box" data-animate-effect="fadeInLeft">
-              <div class="exp-card-header">
-                <h3>Software Build &amp; Release Manager</h3>
-                <span class="exp-date">Aug 2020 – Feb 2023</span>
-                <span class="exp-company">Quest Global · Bengaluru, India</span>
-              </div>
-              <ul>
-                <li>Led software release management for <strong>ALSTOM's AT-DIS (DC) Mainline Signaling-2</strong> project, coordinating <strong>150+ versioned code deliveries</strong>; established release cadences and stakeholder communication processes ensuring on-time delivery across all milestones.</li>
-                <li>Designed cross-team <strong>coding standards and release governance protocols</strong>, reducing pre-release audit discrepancies from ~10% to <strong>under 5%</strong> — early product instincts around process ownership and developer experience.</li>
-                <li>Served as <strong>Test Lead</strong> on the ATE-OTS operations tools team; redesigned test coverage frameworks that improved bug detection rates by <strong>20%</strong>, reducing post-release incidents.</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <!-- ── STEP 4: Product Work (Case Studies + What I've Built) ── -->
-        <section class="colorlib-achievement" data-section="blogs">
-          <div class="colorlib-narrow-content">
-            <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-              <div class="about-desc">
-                <h1>Product <span style="color: #5078c2">Work</span></h1>
-              </div>
-
-              <!-- What I've Built -->
-              <h2 style="margin-top:0.5em; margin-bottom:0.3em;">What I've Built</h2>
-              <div class="built-grid">
-                <div class="built-card">
-                  <span class="built-tag">AI · Logistics · ClickPost</span>
-                  <h3>AI Address Mapping &amp; Returns QC</h3>
-                  <p>Defined and shipped an AI feature that reduced client order processing time from several minutes to under 10 seconds — a 95%+ latency improvement deployed across 290+ enterprise accounts.</p>
-                </div>
-                <div class="built-card">
-                  <span class="built-tag">Internal Tool · AI · ClickPost</span>
-                  <h3>AI Code Generation Tool for SDEs</h3>
-                  <p>Architected an internal tool using Claude API and n8n workflows with built-in QA automation, accelerating carrier integration development cycles and reducing manual engineering effort.</p>
-                </div>
-                <div class="built-card">
-                  <span class="built-tag">Analytics · Dashboard · ClickPost</span>
-                  <h3>Real-Time Onboarding Analytics Dashboard</h3>
-                  <p>Built with Lovable AI and n8n to surface onboarding health metrics in real time, enabling the customer success team to identify at-risk accounts and proactively reduce onboarding duration.</p>
-                </div>
-                <div class="built-card">
-                  <span class="built-tag">Founder · Community Product</span>
-                  <h3>KodeVerse</h3>
-                  <p>Built and scaled a career counseling community product for college students — grew to 1,500+ members, ran first cohort of 15 students, helping them build resumes, LinkedIn profiles, and GitHub portfolios.</p>
-                </div>
-              </div>
-
-              <!-- Case Studies -->
-              <h2 style="margin-top:1.5em; margin-bottom:0.5em;">Case Studies</h2>
-              <div class="container">
-                <div class="responsive">
-                  <div class="gallery">
-                    <a target="_blank" href="https://drive.google.com/file/d/1wqJKzxAQHtLhpd2jutBo3-tm8rx0JU5x/view?usp=sharing">
-                      <img src="images/fampay.png" alt="FamPay" class="project-pic">
-                    </a>
-                    <div class="descend"><strong>FamPay</strong> — User interviews mapped parent–child financial literacy needs; proposed engagement and monetization strategies. <em>Selected as Top Case Study by the FamPay Team.</em></div>
-                  </div>
-                </div>
-                <div class="responsive">
-                  <div class="gallery">
-                    <a target="_blank" href="https://drive.google.com/file/d/180naZEtL57el4evkHEMnDN3KbGPBxwrS/view?usp=sharing">
-                      <img src="images/dunzo.png" alt="Dunzo" class="project-pic">
-                    </a>
-                    <div class="descend"><strong>Dunzo</strong> — Combined survey data and user interviews to identify friction in reorder flows; proposed roadmap projected to increase AOV by <strong>40%</strong> and drive ARR growth.</div>
-                  </div>
-                </div>
-                <div class="responsive">
-                  <div class="gallery">
-                    <a target="_blank" href="https://drive.google.com/file/d/12bxNNJdQzatldigTeHHQNiOrPLtgUHoU/view?usp=sharing">
-                      <img src="images/jupiter.png" alt="Jupiter Money" class="project-pic">
-                    </a>
-                    <div class="descend"><strong>Jupiter Money</strong> — Designed a gamification framework to drive daily active transactions, improve retention, and grow organic community engagement metrics.</div>
-                  </div>
-                </div>
-                <div class="responsive">
-                  <div class="gallery">
-                    <a target="_blank" href="https://drive.google.com/file/d/1rC5sZ8so4g5n5QkTQnfxnbrhtnWedSY-/view?usp=sharing">
-                      <img src="images/mudrex.png" alt="Mudrex" class="project-pic">
-                    </a>
-                    <div class="descend"><strong>Mudrex</strong> — Product teardown and strategic roadmap to improve Web3 transaction transparency, reduce third-party dependency, and increase user retention.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- ── Community Experience ────────────────────────────────── -->
-        <section class="colorlib-experience" data-section="community">
-          <div class="colorlib-narrow-content">
-            <div class="row row-bottom-padded-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-              <div class="about-desc">
-                <h1>Community <span style="color: #5078c2">Experience</span></h1>
-              </div>
-            </div>
-
-            <div class="community-card animate-box" data-animate-effect="fadeInLeft">
-              <h3>SuperWomen DAO</h3>
-              <div class="comm-meta">Community Lead · 2022 – 2023 · Remote</div>
-              <p>Led community growth for an education, upskilling, and networking DAO for women in Web3 — through podcasting, Hacker House organization, and strategic social media engagement.</p>
-            </div>
-
-            <div class="community-card animate-box" data-animate-effect="fadeInLeft">
-              <h3>The Product House</h3>
-              <div class="comm-meta">Community Lead · 2023 · Remote</div>
-              <p>Drove user onboarding and engagement strategy for an EdTech Web3 community; enabled a vibrant learning and earning ecosystem on Discord.</p>
-            </div>
-
-            <div class="community-card animate-box" data-animate-effect="fadeInLeft">
-              <h3>Microsoft Azure Developer India</h3>
-              <div class="comm-meta">Regional Lead · 2021 · Bengaluru</div>
-              <p>Led regional initiatives creating a collaborative environment for Azure cloud developers through workshops, meetups, and mentorship programs.</p>
-            </div>
-          </div>
-        </section>
-
-        <!-- ── STEP 3: Education (fully populated) ─────────────────── -->
-        <section class="colorlib-education" data-section="education">
-          <div class="colorlib-narrow-content">
-            <div class="row row-bottom-padded-sm animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-              <div class="about-desc">
-                <h1>Education</h1>
-              </div>
-            </div>
-
-            <div class="edu-card animate-box" data-animate-effect="fadeInLeft">
-              <h3>Bachelor of Engineering — Computer Science</h3>
-              <p>New Horizon College of Engineering, Bengaluru</p>
-              <div class="edu-meta">
-                <span>2016 – 2020</span>
-                <span>CGPA: 9.44 / 10</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- ── Achievements (preserved + FamPay recognition added) ─── -->
-        <section class="colorlib-achievement" data-section="Achievement">
-          <div class="colorlib-narrow-content">
-            <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-              <div class="about-desc">
-                <h1>Honors | Awards | Publication</h1>
-              </div>
-              <div class="container">
-                <div class="card__wrap--outer">
-
-                  <div class="card__wrap--inner">
-                    <div class="card">
-                      <img src="images/publish.png" alt="Journal" loading="lazy" class="project-pic" />
-                      <h3 class="card__item"><u>ICIREMS-2019 — Published Research</u></h3>
-                      <div class="card__item flexible">
-                        <small>
-                          Co-authored <em>Safe-Ride: Automatic Recognition of Potholes and Humps on Roads using Ultrasonic Sensor</em>,
-                          published in the International Journal of Scientific Research in Computer Science (Nov–Dec 2019).
-                        </small>
-                      </div>
-                      <div class="card__footer">
-                        <a href="https://ijsrcseit.com/CSEIT19491104" target="_blank" class="project-link">View Paper</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="card__wrap--inner">
-                    <div class="card">
-                      <img src="images/fampay.png" alt="FamPay" loading="lazy" class="project-pic" />
-                      <h3 class="card__item"><u>FamPay — Top Case Study</u></h3>
-                      <div class="card__item flexible">
-                        <small>
-                          Product case study on financial literacy and family engagement selected as a
-                          <strong>Top Case Study by the FamPay Team</strong> out of open submissions.
-                        </small>
-                      </div>
-                      <div class="card__footer">
-                        <a href="https://drive.google.com/file/d/1wqJKzxAQHtLhpd2jutBo3-tm8rx0JU5x/view?usp=sharing"
-                          target="_blank" class="project-link">View Case Study</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="card__wrap--inner">
-                    <div class="card">
-                      <img src="images/first.png" alt="First" loading="lazy" class="project-pic" />
-                      <h3 class="card__item"><u>Accelathon 2019 — Winner</u></h3>
-                      <div class="card__item flexible">
-                        <small>
-                          Winner at Social Innovation Hackathon "Accelathon 2019" conducted
-                          by BCIC (Bangalore Chambers of Industry and Commerce) for the IoT project "SMART STICK".
-                        </small>
-                      </div>
-                      <div class="card__footer">
-                        <a href="https://www.linkedin.com/posts/namratha-l-bemane_anz-lifeatanz-accelathon-activity-6553555300614529024-3PC4"
-                          target="_blank" class="project-link">View Post</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="card__wrap--inner">
-                    <div class="card">
-                      <img src="images/third.png" alt="Third" loading="lazy" class="project-pic" />
-                      <h3 class="card__item"><u>QuEST Global IoT Hackathon 2018 — 3rd Prize</u></h3>
-                      <div class="card__item flexible">
-                        <small>
-                          Won 3rd prize at QuEST Global IoT Hackathon for the web development project "Digital Library".
-                        </small>
-                      </div>
-                      <div class="card__footer">
-                        <a href="https://drive.google.com/file/d/1TggTkcZ5DqSTxaKxcXoK-hKgU9bH4I_9/view?usp=sharing"
-                          target="_blank" class="project-link">View Certificate</a>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- ── STEP 6: Contact (email unified) ────────────────────── -->
-        <section class="colorlib-contact" data-section="contact">
-          <div class="colorlib-narrow-content">
-            <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-              <div class="about-desc">
-                <h1>Contact</h1>
-              </div>
-              <p>
-                Want to talk product, APIs, AI tooling, logistics tech, or community building?
-                Feel free to reach out — I'm always happy to connect.
-              </p>
-              <p>
-                📧 <a href="mailto:namratha9823@gmail.com">namratha9823@gmail.com</a><br>
-                💼 <a href="https://www.linkedin.com/in/namratha-l-bemane/" target="_blank">linkedin.com/in/namratha-l-bemane</a>
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- Footer -->
-        <section class="colorlib-footer no-print" data-section="footer">
-          <div class="colorlib-narrow-content">
-            <footer class="footer" id="footer"></footer>
-          </div>
-        </section>
-
+        <div class="about-right">
+          <div class="skills-container" id="skillsContainer"><!-- Populated by JS --></div>
+        </div>
       </div>
-      <!-- ══════════════════ END MAIN CONTENT ══════════════════ -->
-
     </div>
-  </div>
+  </section>
 
-  <!-- jQuery -->
-  <script src="js/jquery.min.js"></script>
-  <!-- jQuery Easing -->
-  <script src="js/jquery.easing.1.3.js"></script>
-  <!-- Bootstrap -->
-  <script src="js/bootstrap.min.js"></script>
-  <!-- Waypoints -->
-  <script src="js/jquery.waypoints.min.js"></script>
-  <!-- Flexslider -->
-  <script src="js/jquery.flexslider-min.js"></script>
-  <!-- Counters -->
-  <script src="js/jquery.countTo.js"></script>
-  <!-- MAIN JS -->
-  <script src="js/main.js"></script>
+  <!-- ══════════════ EXPERIENCE ══════════════ -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-label">Experience</div>
+      <h2 class="section-title">Work Experience</h2>
+      <div class="timeline" id="experienceTimeline"><!-- Populated by JS --></div>
 
+      <!-- Education inline -->
+      <div class="edu-row" id="educationRow">
+        <div class="section-label" style="margin-top:3rem">Education</div>
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ PRODUCT WORK ══════════════ -->
+  <section class="section" id="work">
+    <div class="container">
+      <div class="section-label">Product Work</div>
+      <h2 class="section-title">What I've Built & Studied</h2>
+
+      <!-- Tab switcher -->
+      <div class="tabs">
+        <button class="tab active" data-tab="built">What I've Built</button>
+        <button class="tab" data-tab="casestudies">Case Studies</button>
+      </div>
+
+      <div class="tab-content active" id="tab-built">
+        <div class="built-grid" id="builtGrid"><!-- Populated by JS --></div>
+      </div>
+
+      <div class="tab-content" id="tab-casestudies">
+        <div class="case-grid" id="caseGrid"><!-- Populated by JS --></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ COMMUNITY ══════════════ -->
+  <section class="section section-alt" id="community">
+    <div class="container">
+      <div class="section-label">Community</div>
+      <h2 class="section-title">Building Beyond Work</h2>
+      <div class="community-grid" id="communityGrid"><!-- Populated by JS --></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ ACHIEVEMENTS ══════════════ -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <div class="section-label">Recognition</div>
+      <h2 class="section-title">Honors & Publications</h2>
+      <div class="ach-grid" id="achGrid"><!-- Populated by JS --></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-label">Contact</div>
+      <div class="contact-inner">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="contact-sub">Open to PM roles, product conversations, collaborations, and community initiatives.</p>
+        <a href="mailto:namratha9823@gmail.com" class="contact-email">namratha9823@gmail.com</a>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/namratha-l-bemane/" target="_blank" class="contact-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/Namrathalb" target="_blank" class="contact-link"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://medium.com/@namratha9823" target="_blank" class="contact-link"><i class="fab fa-medium"></i> Medium</a>
+          <a href="https://twitter.com/namratha_bemane" target="_blank" class="contact-link"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <p>Made with ♥ by Namratha L Bemane · <a href="https://github.com/Namrathalb/Namrathalb.github.io" target="_blank">View Source</a></p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
