@@ -4,8 +4,8 @@ export default {
     role: "Product Manager",
     about: "Technical Product Manager with 3.5+ years owning the end-to-end lifecycle of a Carrier API integration platform supporting 450+ integrations across India, US, CA, MX, UK, UAE, and APAC. Drove shipment visibility and logistics efficiency improvements for 290+ active enterprise accounts spanning B2B, B2C, and D2C segments, including hyperlocal and quick commerce verticals. Strong cross-functional collaborator bridging engineering, operations, and business stakeholders — experienced in 0→1 AI tooling, enterprise onboarding, and reducing operational latency through product-led automation.",
     email: "namratha9823@gmail.com",
-    resumeLink: "https://drive.google.com/uc?export=download&id=1y4xh9j9me091FJC-NTMwGvn8rUU2juDs",
-    linkedin: "https://www.linkedin.com/in/namratha-l-bemane/",
+    resumeLink: "https://drive.google.com/uc?export=download&id=1gyEJqVQILpkge0qgQEw3ljmu7R9csmoo",
+    linkedin: "https://www.linkedin.com/in/namrathalbemane/",
     github: "https://github.com/Namrathalb",
     medium: "https://medium.com/@namratha9823",
     twitter: "https://twitter.com/namratha_bemane",
@@ -89,6 +89,13 @@ export default {
       description: "Built with Lovable AI and n8n to surface onboarding health metrics in real time, enabling the CS team to identify at-risk accounts and proactively reduce onboarding duration.",
     },
     {
+      icon: "🔗",
+      tag: "Live Product · ClickPost · Public API Directory",
+      title: "Carrier Integration Directory",
+      description: "A public-facing directory of 450+ carrier integrations managed at ClickPost — listing capabilities, supported regions, and service types across India, US, UAE, APAC, and more.",
+      link: "https://carriers.clickpost.ai/",
+    },
+    {
       icon: "🚀",
       tag: "Founder · Community Product",
       title: "KodeVerse",
@@ -124,6 +131,13 @@ export default {
       tag: "Product Teardown · Web3 · Retention",
       description: "In-depth teardown and strategic roadmap to improve Web3 transaction transparency, reduce third-party dependency, and increase platform user retention.",
       link: "https://drive.google.com/file/d/1rC5sZ8so4g5n5QkTQnfxnbrhtnWedSY-/view?usp=sharing",
+    },
+    {
+      title: "Zepto",
+      image: "images/mudrex.png",
+      tag: "Logistics Strategy · RTOS Reduction · Last-Mile Cost",
+      description: "Two-hypothesis proof-of-work on reducing Return-to-Origin (RTO) rate and last-mile logistics cost for Zepto's rapid commerce operations — with data-backed recommendations and a prioritized roadmap.",
+      link: "https://drive.google.com/file/d/1_kIgca9X5PUZ79vB8-jizHnmnGY-FGi-/view?usp=drive_link",
     },
   ],
 
