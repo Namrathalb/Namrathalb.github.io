@@ -9,6 +9,7 @@ export default {
     github: "https://github.com/Namrathalb",
     medium: "https://medium.com/@namratha9823",
     twitter: "https://twitter.com/namratha_bemane",
+    instagram: "https://www.instagram.com/namratha_bemane",
   },
 
   stats: [
@@ -134,7 +135,7 @@ export default {
     },
     {
       title: "Zepto",
-      image: "images/mudrex.png",
+      image: "images/zepto.png",
       tag: "Logistics Strategy · RTOS Reduction · Last-Mile Cost",
       description: "Two-hypothesis proof-of-work on reducing Return-to-Origin (RTO) rate and last-mile logistics cost for Zepto's rapid commerce operations — with data-backed recommendations and a prioritized roadmap.",
       link: "https://drive.google.com/file/d/1_kIgca9X5PUZ79vB8-jizHnmnGY-FGi-/view?usp=drive_link",
@@ -169,6 +170,15 @@ export default {
       role: "Chapter Lead — Tumkur",
       duration: "2021 – 2022",
       description: "Led regional initiatives with live Azure tech sessions, workshops, and mentorship programs, creating a collaborative environment for cloud developers.",
+    },
+    {
+      icon: "📸",
+      title: "Content Creator — Instagram",
+      role: "Creator · @namratha_bemane",
+      duration: "2022 – Present",
+      description: "Weekly content creator covering binge-watching reviews, Kdrama, K-pop, anime, manga, manhwa, Marvel, and DC comics. Weekly newsletter recapping the past week's pop culture news.",
+      link: "https://www.instagram.com/thebingewatcherz",
+      linkText: "Follow on Instagram →",
     },
   ],
 
