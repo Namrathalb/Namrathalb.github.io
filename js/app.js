@@ -11,6 +11,28 @@ function el(tag, cls, html) {
 }
 
 /* ══════════════════════════════════════════════════════
+   DARK MODE
+   ══════════════════════════════════════════════════════ */
+function initTheme() {
+  const toggle = document.getElementById("themeToggle");
+  const icon   = document.getElementById("themeIcon");
+  const html   = document.documentElement;
+
+  // Restore saved preference
+  const saved = localStorage.getItem("theme") || "light";
+  html.setAttribute("data-theme", saved);
+  icon.className = saved === "dark" ? "fas fa-sun" : "fas fa-moon";
+
+  toggle.addEventListener("click", () => {
+    const current = html.getAttribute("data-theme");
+    const next    = current === "dark" ? "light" : "dark";
+    html.setAttribute("data-theme", next);
+    localStorage.setItem("theme", next);
+    icon.className = next === "dark" ? "fas fa-sun" : "fas fa-moon";
+  });
+}
+
+/* ══════════════════════════════════════════════════════
    STATS BAR
    ══════════════════════════════════════════════════════ */
 function populateStats() {
@@ -197,8 +219,16 @@ function populateCommunity() {
     info.appendChild(el("div", "community-role", c.role));
     info.appendChild(el("div", "community-duration", c.duration));
     info.appendChild(el("p", null, c.description));
-    card.appendChild(info);
 
+    // Optional link (used for Instagram card)
+    if (c.link) {
+      const a = el("a", "community-link", c.linkText || "View →");
+      a.href = c.link;
+      a.target = "_blank";
+      info.appendChild(a);
+    }
+
+    card.appendChild(info);
     grid.appendChild(card);
   });
 }
@@ -238,7 +268,7 @@ function populateAchievements() {
    NAV — scroll spy + hamburger
    ══════════════════════════════════════════════════════ */
 function initNav() {
-  const nav = document.getElementById("nav");
+  const nav      = document.getElementById("nav");
   const hamburger = document.getElementById("hamburger");
   const navMobile = document.getElementById("navMobile");
 
@@ -292,6 +322,7 @@ function initReveal() {
    INIT
    ══════════════════════════════════════════════════════ */
 document.addEventListener("DOMContentLoaded", () => {
+  initTheme();
   populateStats();
   populateAbout();
   populateSkills();
