@@ -34,7 +34,7 @@
         <li><a href="#achievements">Achievements</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <button class="nav-resume-btn" onclick="window.open('https://drive.google.com/uc?export=download&id=19G8lqL5GmT3E3zjbMo4btbMkNJRnYuwx','_blank')">Download Resume</button>
+      <button class="nav-resume-btn" onclick="window.open('https://drive.google.com/uc?export=download&id=1gyEJqVQILpkge0qgQEw3ljmu7R9csmoo','_blank')">Download Resume</button>
       <button class="nav-hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -46,7 +46,7 @@
       <a href="#community" class="nav-mobile-link">Community</a>
       <a href="#achievements" class="nav-mobile-link">Achievements</a>
       <a href="#contact" class="nav-mobile-link">Contact</a>
-      <a href="https://drive.google.com/uc?export=download&id=1y4xh9j9me091FJC-NTMwGvn8rUU2juDs" class="nav-mobile-link" target="_blank">Download Resume</a>
+      <a href="https://drive.google.com/uc?export=download&id=1gyEJqVQILpkge0qgQEw3ljmu7R9csmoo" class="nav-mobile-link" target="_blank">Download Resume</a>
     </div>
   </nav>
 
@@ -64,7 +64,7 @@
       </div>
       <div class="hero-socials">
         <a href="https://github.com/Namrathalb" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/namratha-l-bemane/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/namrathalbemane/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
         <a href="https://medium.com/@namratha9823" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
         <a href="https://twitter.com/namratha_bemane" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
       </div>
@@ -77,9 +77,7 @@
 
   <!-- ══════════════ STATS ══════════════ -->
   <section class="stats-bar">
-    <div class="stats-inner" id="statsBar">
-      <!-- Populated by JS -->
-    </div>
+    <div class="stats-inner" id="statsBar"></div>
   </section>
 
   <!-- ══════════════ ABOUT ══════════════ -->
@@ -89,14 +87,14 @@
       <div class="about-grid">
         <div class="about-left">
           <h2 class="section-title">Building products that<br/><em>move things forward</em></h2>
-          <p class="about-text" id="aboutText"><!-- Populated by JS --></p>
+          <p class="about-text" id="aboutText"></p>
           <div class="about-cta">
-            <a href="https://drive.google.com/uc?export=download&id=1y4xh9j9me091FJC-NTMwGvn8rUU2juDs" class="btn-primary" target="_blank">Download Resume</a>
+            <a href="https://drive.google.com/uc?export=download&id=1gyEJqVQILpkge0qgQEw3ljmu7R9csmoo" class="btn-primary" target="_blank">Download Resume</a>
             <a href="https://twitter.com/namratha_bemane/status/1569158311563653120" class="btn-ghost" target="_blank">Product Threads ↗</a>
           </div>
         </div>
         <div class="about-right">
-          <div class="skills-container" id="skillsContainer"><!-- Populated by JS --></div>
+          <div class="skills-container" id="skillsContainer"></div>
         </div>
       </div>
     </div>
@@ -107,13 +105,8 @@
     <div class="container">
       <div class="section-label">Experience</div>
       <h2 class="section-title">Work Experience</h2>
-      <div class="timeline" id="experienceTimeline"><!-- Populated by JS --></div>
-
-      <!-- Education inline -->
-      <div class="edu-row" id="educationRow">
-        <div class="section-label" style="margin-top:3rem">Education</div>
-        <!-- Populated by JS -->
-      </div>
+      <div class="timeline" id="experienceTimeline"></div>
+      <div class="edu-row" id="educationRow"></div>
     </div>
   </section>
 
@@ -121,20 +114,18 @@
   <section class="section" id="work">
     <div class="container">
       <div class="section-label">Product Work</div>
-      <h2 class="section-title">What I've Built & Studied</h2>
+      <h2 class="section-title">What I've Built</h2>
+      <div class="built-grid" id="builtGrid"></div>
+    </div>
 
-      <!-- Tab switcher -->
-      <div class="tabs">
-        <button class="tab active" data-tab="built">What I've Built</button>
-        <button class="tab" data-tab="casestudies">Case Studies</button>
+    <!-- Case Studies — full-width marquee -->
+    <div class="case-studies-strip">
+      <div class="container">
+        <div class="section-label" style="margin-top:3.5rem; margin-bottom:0.4rem;">Case Studies</div>
+        <h2 class="section-title" style="margin-bottom:1.5rem;">Product Thinking in Action</h2>
       </div>
-
-      <div class="tab-content active" id="tab-built">
-        <div class="built-grid" id="builtGrid"><!-- Populated by JS --></div>
-      </div>
-
-      <div class="tab-content" id="tab-casestudies">
-        <div class="case-grid" id="caseGrid"><!-- Populated by JS --></div>
+      <div class="marquee-wrapper" id="marqueeWrapper">
+        <div class="marquee-track" id="marqueeTrack"></div>
       </div>
     </div>
   </section>
@@ -144,7 +135,7 @@
     <div class="container">
       <div class="section-label">Community</div>
       <h2 class="section-title">Building Beyond Work</h2>
-      <div class="community-grid" id="communityGrid"><!-- Populated by JS --></div>
+      <div class="community-grid" id="communityGrid"></div>
     </div>
   </section>
 
@@ -153,7 +144,7 @@
     <div class="container">
       <div class="section-label">Recognition</div>
       <h2 class="section-title">Honors & Publications</h2>
-      <div class="ach-grid" id="achGrid"><!-- Populated by JS --></div>
+      <div class="ach-grid" id="achGrid"></div>
     </div>
   </section>
 
@@ -166,7 +157,7 @@
         <p class="contact-sub">Open to PM roles, product conversations, collaborations, and community initiatives.</p>
         <a href="mailto:namratha9823@gmail.com" class="contact-email">namratha9823@gmail.com</a>
         <div class="contact-links">
-          <a href="https://www.linkedin.com/in/namratha-l-bemane/" target="_blank" class="contact-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/namrathalbemane/" target="_blank" class="contact-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
           <a href="https://github.com/Namrathalb" target="_blank" class="contact-link"><i class="fab fa-github"></i> GitHub</a>
           <a href="https://medium.com/@namratha9823" target="_blank" class="contact-link"><i class="fab fa-medium"></i> Medium</a>
           <a href="https://twitter.com/namratha_bemane" target="_blank" class="contact-link"><i class="fab fa-twitter"></i> Twitter</a>
