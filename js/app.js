@@ -58,7 +58,6 @@ function populateExperience() {
   data.experience.forEach(job => {
     const card = el("div", "timeline-card reveal");
 
-    // Header
     const header = el("div", "timeline-card-header");
     const left = el("div");
     left.appendChild(el("div", "timeline-card-title", job.title));
@@ -68,7 +67,6 @@ function populateExperience() {
     header.appendChild(el("div", "timeline-card-date", job.duration));
     card.appendChild(header);
 
-    // Bullets
     const ul = el("ul");
     job.details.forEach(d => {
       const li = el("li");
@@ -77,7 +75,6 @@ function populateExperience() {
     });
     card.appendChild(ul);
 
-    // Tags
     const tags = el("div", "timeline-tags");
     job.tags.forEach(t => tags.appendChild(el("span", "tag", t)));
     card.appendChild(tags);
@@ -127,30 +124,39 @@ function populateBuilt() {
     card.appendChild(el("div", "built-card-tag", item.tag));
     card.appendChild(el("h3", null, item.title));
     card.appendChild(el("p", null, item.description));
+
+    if (item.link) {
+      const a = el("a", "case-card-link", "View Live →");
+      a.href = item.link;
+      a.target = "_blank";
+      a.style.marginTop = "0.8rem";
+      a.style.display = "inline-flex";
+      card.appendChild(a);
+    }
+
     grid.appendChild(card);
   });
 }
 
 /* ══════════════════════════════════════════════════════
-   CASE STUDIES
+   CASE STUDIES — infinite marquee
    ══════════════════════════════════════════════════════ */
 function populateCaseStudies() {
-  const grid = document.getElementById("caseGrid");
-  if (!grid) return;
+  const track = document.getElementById("marqueeTrack");
+  if (!track) return;
 
-  data.caseStudies.forEach(cs => {
-    const card = el("div", "case-card reveal");
+  const renderCards = () => data.caseStudies.map(cs => {
+    const card = el("div", "marquee-card");
 
-    const img = el("img", "case-card-img");
+    const img = el("img", "marquee-card-img");
     img.src = cs.image;
     img.alt = cs.title;
     img.loading = "lazy";
-    // Fallback background if image missing
     img.onerror = () => { img.style.display = "none"; };
     card.appendChild(img);
 
-    const body = el("div", "case-card-body");
-    body.appendChild(el("div", "case-card-tag", cs.tag));
+    const body = el("div", "marquee-card-body");
+    body.appendChild(el("div", "marquee-card-tag", cs.tag));
     body.appendChild(el("h3", null, cs.title));
     body.appendChild(el("p", null, cs.description));
 
@@ -160,8 +166,19 @@ function populateCaseStudies() {
     body.appendChild(link);
 
     card.appendChild(body);
-    grid.appendChild(card);
+    return card;
   });
+
+  // Two sets for seamless infinite loop
+  renderCards().forEach(c => track.appendChild(c));
+  renderCards().forEach(c => track.appendChild(c));
+
+  // Pause on hover
+  const wrapper = document.getElementById("marqueeWrapper");
+  if (wrapper) {
+    wrapper.addEventListener("mouseenter", () => track.style.animationPlayState = "paused");
+    wrapper.addEventListener("mouseleave", () => track.style.animationPlayState = "running");
+  }
 }
 
 /* ══════════════════════════════════════════════════════
@@ -173,7 +190,6 @@ function populateCommunity() {
 
   data.community.forEach(c => {
     const card = el("div", "community-card reveal");
-
     card.appendChild(el("div", "community-icon", c.icon));
 
     const info = el("div", "community-info");
@@ -226,22 +242,18 @@ function initNav() {
   const hamburger = document.getElementById("hamburger");
   const navMobile = document.getElementById("navMobile");
 
-  // Scrolled class
   window.addEventListener("scroll", () => {
     nav.classList.toggle("scrolled", window.scrollY > 20);
   }, { passive: true });
 
-  // Hamburger
   hamburger && hamburger.addEventListener("click", () => {
     navMobile.classList.toggle("open");
   });
 
-  // Close mobile nav on link click
   document.querySelectorAll(".nav-mobile-link").forEach(link => {
     link.addEventListener("click", () => navMobile.classList.remove("open"));
   });
 
-  // Active link on scroll
   const sections = document.querySelectorAll("section[id]");
   const navLinks = document.querySelectorAll(".nav-links a");
 
@@ -259,24 +271,6 @@ function initNav() {
 }
 
 /* ══════════════════════════════════════════════════════
-   TABS — Product Work
-   ══════════════════════════════════════════════════════ */
-function initTabs() {
-  const tabs = document.querySelectorAll(".tab");
-  const contents = document.querySelectorAll(".tab-content");
-
-  tabs.forEach(tab => {
-    tab.addEventListener("click", () => {
-      tabs.forEach(t => t.classList.remove("active"));
-      contents.forEach(c => c.classList.remove("active"));
-      tab.classList.add("active");
-      const target = document.getElementById("tab-" + tab.dataset.tab);
-      if (target) target.classList.add("active");
-    });
-  });
-}
-
-/* ══════════════════════════════════════════════════════
    SCROLL REVEAL
    ══════════════════════════════════════════════════════ */
 function initReveal() {
@@ -289,7 +283,6 @@ function initReveal() {
     });
   }, { threshold: 0.1 });
 
-  // Observe all .reveal elements (populated after DOM updates)
   setTimeout(() => {
     document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
   }, 100);
@@ -309,6 +302,5 @@ document.addEventListener("DOMContentLoaded", () => {
   populateCommunity();
   populateAchievements();
   initNav();
-  initTabs();
   initReveal();
 });
