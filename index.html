@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -34,6 +34,10 @@
         <li><a href="#achievements">Achievements</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <!-- Dark mode toggle -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
       <button class="nav-resume-btn" onclick="window.open('https://drive.google.com/uc?export=download&id=1gyEJqVQILpkge0qgQEw3ljmu7R9csmoo','_blank')">Download Resume</button>
       <button class="nav-hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
@@ -67,6 +71,7 @@
         <a href="https://www.linkedin.com/in/namrathalbemane/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
         <a href="https://medium.com/@namratha9823" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
         <a href="https://twitter.com/namratha_bemane" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/namratha_bemane" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
       </div>
     </div>
     <div class="hero-scroll-hint">
@@ -85,6 +90,31 @@
     <div class="container">
       <div class="section-label">About</div>
       <div class="about-grid">
+
+        <!-- LEFT: Photo -->
+        <div class="about-photo-col">
+          <div class="about-photo-wrap">
+            <img
+              src="images/namratha.jpg"
+              alt="Namratha L Bemane"
+              class="about-photo"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            />
+            <!-- Placeholder shown only if image missing -->
+            <div class="about-photo-placeholder">
+              <i class="fas fa-user"></i>
+              <span>Add your photo</span>
+            </div>
+          </div>
+          <div class="about-photo-tags">
+            <span class="photo-tag">📍 Bengaluru</span>
+            <span class="photo-tag">🚢 Logistics & APIs</span>
+            <span class="photo-tag">🤖 AI Tooling</span>
+            <span class="photo-tag">✍️ Content Creator</span>
+          </div>
+        </div>
+
+        <!-- MIDDLE: Bio + CTA -->
         <div class="about-left">
           <h2 class="section-title">Building products that<br/><em>move things forward</em></h2>
           <p class="about-text" id="aboutText"></p>
@@ -93,9 +123,12 @@
             <a href="https://twitter.com/namratha_bemane/status/1569158311563653120" class="btn-ghost" target="_blank">Product Threads ↗</a>
           </div>
         </div>
+
+        <!-- RIGHT: Skills -->
         <div class="about-right">
           <div class="skills-container" id="skillsContainer"></div>
         </div>
+
       </div>
     </div>
   </section>
@@ -161,6 +194,7 @@
           <a href="https://github.com/Namrathalb" target="_blank" class="contact-link"><i class="fab fa-github"></i> GitHub</a>
           <a href="https://medium.com/@namratha9823" target="_blank" class="contact-link"><i class="fab fa-medium"></i> Medium</a>
           <a href="https://twitter.com/namratha_bemane" target="_blank" class="contact-link"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="https://www.instagram.com/namratha_bemane" target="_blank" class="contact-link"><i class="fab fa-instagram"></i> Instagram</a>
         </div>
       </div>
     </div>
